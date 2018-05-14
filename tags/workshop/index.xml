@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workshop on SNLab Freedom Zone</title>
-    <link>https://snlab-freedom.github.io/tags/workshop/</link>
+    <link>http://snlab.org/tags/workshop/</link>
     <description>Recent content in Workshop on SNLab Freedom Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Jun 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://snlab-freedom.github.io/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://snlab.org/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ARO Workshop on Software Defined Networking for Army Applications</title>
-      <link>https://snlab-freedom.github.io/posts/2016-06-14-aro-workshop-on-software-defined-networking-for-army-applications/</link>
+      <link>http://snlab.org/posts/2016-06-14-aro-workshop-on-software-defined-networking-for-army-applications/</link>
       <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/posts/2016-06-14-aro-workshop-on-software-defined-networking-for-army-applications/</guid>
+      <guid>http://snlab.org/posts/2016-06-14-aro-workshop-on-software-defined-networking-for-army-applications/</guid>
       <description>SNLab organized the workshop in May 5-6th, 2016. This workshop bring together experts from software-defined networking, wireless/hybrid networks, tactical networks, high-performance computing and related disciplines to investigate both the benefits and the issues when applying SDN to army applications. The emergence of SDN, whose key features include separation between the data-plane and the control-plane of networks, and logically centralized network control, has potential to completely reshape the field of computer networking.</description>
     </item>
     
     <item>
       <title>SNlab Members attended the NSF Workshop on Algorithms for Software-Defined Networking</title>
-      <link>https://snlab-freedom.github.io/posts/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms/</link>
+      <link>http://snlab.org/posts/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms/</link>
       <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/posts/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms/</guid>
+      <guid>http://snlab.org/posts/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms/</guid>
       <description>SNLab members (Hu Ning, Du Haizhou, Xiang Qiao, Pen Dan) recently attended the NSF Algorithms in the Field (AiTF) Workshop on Algorithms for Software-Defined Networking in June 2-3, 2016. This workshop is sponsored by the Algorithms in the Field (AiTF) program of the National Science Foundation and the DIMACS(Center for Discrete Mathematics &amp;amp; Theroetical Computer Science Technology Center). Including UC Berkeley, Stanford, Carnegie Mellon University, Princeton University, MIT, Google, Microsoft attended the workshop, and discuss together.</description>
     </item>
     

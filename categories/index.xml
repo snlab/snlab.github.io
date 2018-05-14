@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on SNLab Freedom Zone</title>
-    <link>https://snlab-freedom.github.io/categories/</link>
+    <link>http://snlab.org/categories/</link>
     <description>Recent content in Categories on SNLab Freedom Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://snlab-freedom.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://snlab.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Members</title>
-      <link>https://snlab-freedom.github.io/categories/members/</link>
+      <link>http://snlab.org/categories/members/</link>
       <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/categories/members/</guid>
+      <guid>http://snlab.org/categories/members/</guid>
       <description></description>
     </item>
     
     <item>
       <title>News</title>
-      <link>https://snlab-freedom.github.io/categories/news/</link>
+      <link>http://snlab.org/categories/news/</link>
       <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/categories/news/</guid>
+      <guid>http://snlab.org/categories/news/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SNLab Freedom Zone</title>
-    <link>https://snlab-freedom.github.io/</link>
+    <link>http://snlab.org/</link>
     <description>Recent content on SNLab Freedom Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Dec 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://snlab-freedom.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://snlab.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Y.Richard.Yang</title>
-      <link>https://snlab-freedom.github.io/members/yang-richard-yang/</link>
+      <link>http://snlab.org/members/yang-richard-yang/</link>
       <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/yang-richard-yang/</guid>
+      <guid>http://snlab.org/members/yang-richard-yang/</guid>
       <description> 
 Yang Richard Yang Professor of Computer Science and Electrical Engineering (courtesy appointment)
 Yale University
@@ -35,246 +35,246 @@ or yry AT cs.yale.edu     </description>
     
     <item>
       <title>Haizhou Du</title>
-      <link>https://snlab-freedom.github.io/members/haizhou_du/</link>
+      <link>http://snlab.org/members/haizhou_du/</link>
       <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/haizhou_du/</guid>
+      <guid>http://snlab.org/members/haizhou_du/</guid>
       <description>Haizhou Du Email: duhaizhou@gmail.com</description>
     </item>
     
     <item>
       <title>Wei Wang</title>
-      <link>https://snlab-freedom.github.io/members/wei_wang/</link>
+      <link>http://snlab.org/members/wei_wang/</link>
       <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/wei_wang/</guid>
+      <guid>http://snlab.org/members/wei_wang/</guid>
       <description>Wei Wang Email: wwang@tongji.edu.cn</description>
     </item>
     
     <item>
       <title>Chen Gu</title>
-      <link>https://snlab-freedom.github.io/members/chen_gu/</link>
+      <link>http://snlab.org/members/chen_gu/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/chen_gu/</guid>
+      <guid>http://snlab.org/members/chen_gu/</guid>
       <description>Chen Gu Email: gc19931011jy@gmail.com</description>
     </item>
     
     <item>
       <title>Christopher Leet</title>
-      <link>https://snlab-freedom.github.io/members/christopher_leet/</link>
+      <link>http://snlab.org/members/christopher_leet/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/christopher_leet/</guid>
+      <guid>http://snlab.org/members/christopher_leet/</guid>
       <description>Christopher Leet Email: christopher.leet@yale.edu</description>
     </item>
     
     <item>
       <title>Dawn Chen</title>
-      <link>https://snlab-freedom.github.io/members/dawn_chen/</link>
+      <link>http://snlab.org/members/dawn_chen/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/dawn_chen/</guid>
+      <guid>http://snlab.org/members/dawn_chen/</guid>
       <description>Dawn Chan Email: dawn_chen_f@hotmail.com</description>
     </item>
     
     <item>
       <title>Dennis Yu</title>
-      <link>https://snlab-freedom.github.io/members/dennis_yu/</link>
+      <link>http://snlab.org/members/dennis_yu/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/dennis_yu/</guid>
+      <guid>http://snlab.org/members/dennis_yu/</guid>
       <description>Dennis Yu Email: dennis.yht@gmail.com</description>
     </item>
     
     <item>
       <title>Dong Guo</title>
-      <link>https://snlab-freedom.github.io/members/dong_guo/</link>
+      <link>http://snlab.org/members/dong_guo/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/dong_guo/</guid>
+      <guid>http://snlab.org/members/dong_guo/</guid>
       <description>Dong Guo Email: gd@tongjo.com</description>
     </item>
     
     <item>
       <title>Geng Li</title>
-      <link>https://snlab-freedom.github.io/members/geng_li/</link>
+      <link>http://snlab.org/members/geng_li/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/geng_li/</guid>
+      <guid>http://snlab.org/members/geng_li/</guid>
       <description>Geng Li Email: geng.li@yale.edu</description>
     </item>
     
     <item>
       <title>Jace Liu</title>
-      <link>https://snlab-freedom.github.io/members/jace_liu/</link>
+      <link>http://snlab.org/members/jace_liu/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/jace_liu/</guid>
+      <guid>http://snlab.org/members/jace_liu/</guid>
       <description>Jace Liu Email: ly950710@gmail.com</description>
     </item>
     
     <item>
       <title>Jiayuan Hu</title>
-      <link>https://snlab-freedom.github.io/members/jiayuan_hu/</link>
+      <link>http://snlab.org/members/jiayuan_hu/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/jiayuan_hu/</guid>
+      <guid>http://snlab.org/members/jiayuan_hu/</guid>
       <description>Jiayuan Hu Email: jiayuan.hu@hotmail.com</description>
     </item>
     
     <item>
       <title>Junzhuo Wang</title>
-      <link>https://snlab-freedom.github.io/members/junzhuo_wang/</link>
+      <link>http://snlab.org/members/junzhuo_wang/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/junzhuo_wang/</guid>
+      <guid>http://snlab.org/members/junzhuo_wang/</guid>
       <description>Junzhuo Wang Email: wangjunzhuo200@gmail.com</description>
     </item>
     
     <item>
       <title>Shu Dong</title>
-      <link>https://snlab-freedom.github.io/members/shu_dong/</link>
+      <link>http://snlab.org/members/shu_dong/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/shu_dong/</guid>
+      <guid>http://snlab.org/members/shu_dong/</guid>
       <description>Shu Dong Email: dongs2011@gmail.com</description>
     </item>
     
     <item>
       <title>Xiang Zhang</title>
-      <link>https://snlab-freedom.github.io/members/xiang_zhang/</link>
+      <link>http://snlab.org/members/xiang_zhang/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/xiang_zhang/</guid>
+      <guid>http://snlab.org/members/xiang_zhang/</guid>
       <description>Xiang Zhang Email: apoptoxinice@gmail.com</description>
     </item>
     
     <item>
       <title>Yichen Qian</title>
-      <link>https://snlab-freedom.github.io/members/yichen_qian/</link>
+      <link>http://snlab.org/members/yichen_qian/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/yichen_qian/</guid>
+      <guid>http://snlab.org/members/yichen_qian/</guid>
       <description>Yichen Qian Email: 92yichenqian@tongji.edu.cn</description>
     </item>
     
     <item>
       <title>Jensen Zhang</title>
-      <link>https://snlab-freedom.github.io/members/jensen_zhang/</link>
+      <link>http://snlab.org/members/jensen_zhang/</link>
       <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/jensen_zhang/</guid>
+      <guid>http://snlab.org/members/jensen_zhang/</guid>
       <description>Jensen Zhang Email: jingxuan.n.zhang@gmail.com</description>
     </item>
     
     <item>
       <title>Kai Gao</title>
-      <link>https://snlab-freedom.github.io/members/kai_gao/</link>
+      <link>http://snlab.org/members/kai_gao/</link>
       <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/kai_gao/</guid>
+      <guid>http://snlab.org/members/kai_gao/</guid>
       <description>Kai Gao Email: godrickk@gmail.com</description>
     </item>
     
     <item>
       <title>May Wang</title>
-      <link>https://snlab-freedom.github.io/members/may_wang/</link>
+      <link>http://snlab.org/members/may_wang/</link>
       <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/may_wang/</guid>
+      <guid>http://snlab.org/members/may_wang/</guid>
       <description>May Wang Email: whr_hr_r@163.com</description>
     </item>
     
     <item>
       <title>Qiao Xiang</title>
-      <link>https://snlab-freedom.github.io/members/qiao_xiang/</link>
+      <link>http://snlab.org/members/qiao_xiang/</link>
       <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/qiao_xiang/</guid>
+      <guid>http://snlab.org/members/qiao_xiang/</guid>
       <description>Qiao Xiang Email: xiangq27@gmail.com</description>
     </item>
     
     <item>
       <title>Shawn Lin</title>
-      <link>https://snlab-freedom.github.io/members/shawn_lin/</link>
+      <link>http://snlab.org/members/shawn_lin/</link>
       <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/shawn_lin/</guid>
+      <guid>http://snlab.org/members/shawn_lin/</guid>
       <description>Shawn Lin Email: linxiao9292@outlook.com</description>
     </item>
     
     <item>
       <title>Shenshen Chen</title>
-      <link>https://snlab-freedom.github.io/members/shenshen_chen/</link>
+      <link>http://snlab.org/members/shenshen_chen/</link>
       <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/shenshen_chen/</guid>
+      <guid>http://snlab.org/members/shenshen_chen/</guid>
       <description>Shenshen Chen Email: cs90911@gmail.com</description>
     </item>
     
     <item>
       <title>Tony Wang</title>
-      <link>https://snlab-freedom.github.io/members/tony_wang/</link>
+      <link>http://snlab.org/members/tony_wang/</link>
       <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/members/tony_wang/</guid>
+      <guid>http://snlab.org/members/tony_wang/</guid>
       <description>Tony Wang Email: xinwang2014@hotmail.com</description>
     </item>
     
     <item>
       <title>ARO Workshop on Software Defined Networking for Army Applications</title>
-      <link>https://snlab-freedom.github.io/posts/2016-06-14-aro-workshop-on-software-defined-networking-for-army-applications/</link>
+      <link>http://snlab.org/posts/2016-06-14-aro-workshop-on-software-defined-networking-for-army-applications/</link>
       <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/posts/2016-06-14-aro-workshop-on-software-defined-networking-for-army-applications/</guid>
+      <guid>http://snlab.org/posts/2016-06-14-aro-workshop-on-software-defined-networking-for-army-applications/</guid>
       <description>SNLab organized the workshop in May 5-6th, 2016. This workshop bring together experts from software-defined networking, wireless/hybrid networks, tactical networks, high-performance computing and related disciplines to investigate both the benefits and the issues when applying SDN to army applications. The emergence of SDN, whose key features include separation between the data-plane and the control-plane of networks, and logically centralized network control, has potential to completely reshape the field of computer networking.</description>
     </item>
     
     <item>
       <title>SNlab Members attended the NSF Workshop on Algorithms for Software-Defined Networking</title>
-      <link>https://snlab-freedom.github.io/posts/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms/</link>
+      <link>http://snlab.org/posts/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms/</link>
       <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/posts/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms/</guid>
+      <guid>http://snlab.org/posts/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms/</guid>
       <description>SNLab members (Hu Ning, Du Haizhou, Xiang Qiao, Pen Dan) recently attended the NSF Algorithms in the Field (AiTF) Workshop on Algorithms for Software-Defined Networking in June 2-3, 2016. This workshop is sponsored by the Algorithms in the Field (AiTF) program of the National Science Foundation and the DIMACS(Center for Discrete Mathematics &amp;amp; Theroetical Computer Science Technology Center). Including UC Berkeley, Stanford, Carnegie Mellon University, Princeton University, MIT, Google, Microsoft attended the workshop, and discuss together.</description>
     </item>
     
     <item>
       <title>Richard Yang: SDN programming automation: abstraction, tools, and implementations</title>
-      <link>https://snlab-freedom.github.io/posts/2016-06-13-sdn-programming-automation-abstraction-tools-and-applications/</link>
+      <link>http://snlab.org/posts/2016-06-13-sdn-programming-automation-abstraction-tools-and-applications/</link>
       <pubDate>Mon, 13 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/posts/2016-06-13-sdn-programming-automation-abstraction-tools-and-applications/</guid>
+      <guid>http://snlab.org/posts/2016-06-13-sdn-programming-automation-abstraction-tools-and-applications/</guid>
       <description>June 1 to 2, 2016, “Global SDNFV Tech Conference 2016” has been grandly held in Beijing. Prof. Yang and SNLab members are invited to participate in this conference. Prof. Yang made a speech entitled “*SDN programming automation: abstraction, tools, and implementations*”. In this talk, Prof.Yang explained the goal of SNLab, cache and acceleration automation, and present some prototypes of our projects, which include Magellan, automatic generation of multi-level flow tables, Maple, using TraceTree to change high level algorithm policies into the low level flow entries, and FAST, automatic re-execution function instances to make sure the correctness of user functions.</description>
     </item>
     
     <item>
       <title>Demonstration of ALTO SPCE on 2016 Internet2 Global Summit</title>
-      <link>https://snlab-freedom.github.io/posts/2016-05-31-demonstration-of-alto-spec-on-2016-internet2-global-summit/</link>
+      <link>http://snlab.org/posts/2016-05-31-demonstration-of-alto-spec-on-2016-internet2-global-summit/</link>
       <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/posts/2016-05-31-demonstration-of-alto-spec-on-2016-internet2-global-summit/</guid>
+      <guid>http://snlab.org/posts/2016-05-31-demonstration-of-alto-spec-on-2016-internet2-global-summit/</guid>
       <description>2016 Internet2 Global Summit was successfully held in Chicago, Illinois on May 15 to May 18.The Internet2 Global Summit is a leading forum to support and drive the advancement of research and education, spur next-generation innovation and accelerate global discovery.
 SNlab cooperated with CERN from Caltech on the discussion and demonstration of latest achievements among this summit. Core members including Jensen Zhang, Mingming Chen, Qiao Xiang, Kai Gao, May Wang and Shawn Lin attended the summit.</description>
     </item>
     
     <item>
       <title>Spring Summit of SNLab held</title>
-      <link>https://snlab-freedom.github.io/posts/2016-05-31-spring-summit-of-snlab-held/</link>
+      <link>http://snlab.org/posts/2016-05-31-spring-summit-of-snlab-held/</link>
       <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/posts/2016-05-31-spring-summit-of-snlab-held/</guid>
+      <guid>http://snlab.org/posts/2016-05-31-spring-summit-of-snlab-held/</guid>
       <description>Spring Summit of SNlab is held on March 21 to March 23 in College of Computer Science , Tongji University.
 Summit invited researchers from Qinghua, Yale, University of Science and Technology, Shanghai Jiao Tong University, Nanjing University of Posts and telecommunications and Chinese Academy of Sciences to engage in the summit.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://snlab-freedom.github.io/about/</link>
+      <link>http://snlab.org/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://snlab-freedom.github.io/about/</guid>
+      <guid>http://snlab.org/about/</guid>
       <description>Postdoc Positions at SNLab at Tongji-Yale Center of Advanced Networks and Networked Systems
 Founded by Professor Y. Richard Yang http://www.cs.yale.edu/homes/yry/ in the summer of 2014, and hosted in the Institute of Advanced Studies at Tongji University, the Systems Networking Lab (SNLab) will provide astimulating, world-class environment for the advancement of both theory and systems of networks and networked systems.
 With continued development and wide deployment of advanced, transformative networks and systems techniques, such as software defined networks, Internet of things, 5G networks, mobile networks, network function virtualization, and Cloud computing, networks and networked systems remain an exciting, dynamic field that new ideas continue to emerge and new systems continue to be developed and deployed.</description>
