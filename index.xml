@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SNLab Freedom Zone</title>
+    <title>SNLab Zone</title>
     <link>http://snlab.org/</link>
-    <description>Recent content on SNLab Freedom Zone</description>
+    <description>Recent content on SNLab Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Dec 2016 00:00:00 +0000</lastBuildDate>
