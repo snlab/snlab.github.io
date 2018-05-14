@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on SNLab Freedom Zone</title>
+    <link>https://snlab-freedom.github.io/tags/</link>
+    <description>Recent content in Tags on SNLab Freedom Zone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://snlab-freedom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alto</title>
+      <link>https://snlab-freedom.github.io/tags/alto/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://snlab-freedom.github.io/tags/alto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Members</title>
+      <link>https://snlab-freedom.github.io/tags/members/</link>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://snlab-freedom.github.io/tags/members/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://snlab-freedom.github.io/tags/programming/</link>
+      <pubDate>Mon, 13 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://snlab-freedom.github.io/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sdn</title>
+      <link>https://snlab-freedom.github.io/tags/sdn/</link>
+      <pubDate>Mon, 13 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://snlab-freedom.github.io/tags/sdn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summit</title>
+      <link>https://snlab-freedom.github.io/tags/summit/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://snlab-freedom.github.io/tags/summit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshop</title>
+      <link>https://snlab-freedom.github.io/tags/workshop/</link>
+      <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://snlab-freedom.github.io/tags/workshop/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

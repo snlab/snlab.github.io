@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on SNLab Freedom Zone</title>
+    <link>https://snlab-freedom.github.io/tags/programming/</link>
+    <description>Recent content in Programming on SNLab Freedom Zone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://snlab-freedom.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Richard Yang: SDN programming automation: abstraction, tools, and implementations</title>
+      <link>https://snlab-freedom.github.io/posts/2016-06-13-sdn-programming-automation-abstraction-tools-and-applications/</link>
+      <pubDate>Mon, 13 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://snlab-freedom.github.io/posts/2016-06-13-sdn-programming-automation-abstraction-tools-and-applications/</guid>
+      <description>June 1 to 2, 2016, “Global SDNFV Tech Conference 2016” has been grandly held in Beijing. Prof. Yang and SNLab members are invited to participate in this conference. Prof. Yang made a speech entitled “*SDN programming automation: abstraction, tools, and implementations*”. In this talk, Prof.Yang explained the goal of SNLab, cache and acceleration automation, and present some prototypes of our projects, which include Magellan, automatic generation of multi-level flow tables, Maple, using TraceTree to change high level algorithm policies into the low level flow entries, and FAST, automatic re-execution function instances to make sure the correctness of user functions.</description>
+    </item>
+    
+  </channel>
+</rss>

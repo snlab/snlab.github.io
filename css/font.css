@@ -1,0 +1,129 @@
+.navbar-brand img.icon-cooler:hover {
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	color: #38B7EA;
+}
+
+.navbar-brand img.icon-cooler {
+	/* font-size: 20px; */
+  width: 40px;
+  height: 40px;
+  margin-top: -10px;
+	color: #1793D1;
+  display: inline;
+}
+
+a.navbar-brand {
+	text-decoration: none !important;
+  width: auto;
+}
+
+/* effect */
+h1 a:hover img.icon-cooler {
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	-moz-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;
+	-webkit-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;
+	-o-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;
+	text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;
+	color:#38b7ea;
+}
+
+#footer a:hover {
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	color: #07b;
+}
+/* font-awesome */
+.fa-rss {
+	color: #FF7B39;
+}
+
+.fa-rss:hover {
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	color: #07b;
+}
+
+.fa-rss-square {
+	color: #FF7B39;
+}
+.fa-rss-square:hover {
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	color: #07b;
+}
+.social-right {
+  text-align: right;
+}
+
+.fa-bars:hover {
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	color: #1794D1;
+}
+
+.fa-bars {
+	color: #fff;
+	padding-top: 7px;
+}
+
+.header-inner {
+	background-color: #f5f5f5;
+
+}
+
+a.navbar-brand span.site-title {
+	position: relative;
+	padding-left:5px;
+	font-size:33px;
+	color: #428bca;
+	font-weight: 700;
+}
+a.navbar-brand span.site-subtitle {
+	position: relative;
+	font-size:36px;
+	color: #1793D1;
+	font-weight: 200;
+}
+
+#header a, #header a:visited {
+	color: #fff;
+}
+
+#header a:hover, #header a:hover {
+	color:#38b7ea;
+	position:relative;
+}
+
+.widget-download {
+	margin-top:30px;
+}
+
+#header .dropdown-menu {
+  background-color: #f5f5f5;
+}
+
+.fa-arrow-circle-o-down:hover {
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	color: #1794D1;
+}
+
+.widget-title .fa-rss-square {
+	font-size:18px;
+}

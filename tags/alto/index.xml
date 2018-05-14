@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alto on SNLab Freedom Zone</title>
+    <link>https://snlab-freedom.github.io/tags/alto/</link>
+    <description>Recent content in Alto on SNLab Freedom Zone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://snlab-freedom.github.io/tags/alto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Demonstration of ALTO SPCE on 2016 Internet2 Global Summit</title>
+      <link>https://snlab-freedom.github.io/posts/2016-05-31-demonstration-of-alto-spec-on-2016-internet2-global-summit/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://snlab-freedom.github.io/posts/2016-05-31-demonstration-of-alto-spec-on-2016-internet2-global-summit/</guid>
+      <description>2016 Internet2 Global Summit was successfully held in Chicago, Illinois on May 15 to May 18.The Internet2 Global Summit is a leading forum to support and drive the advancement of research and education, spur next-generation innovation and accelerate global discovery.
+SNlab cooperated with CERN from Caltech on the discussion and demonstration of latest achievements among this summit. Core members including Jensen Zhang, Mingming Chen, Qiao Xiang, Kai Gao, May Wang and Shawn Lin attended the summit.</description>
+    </item>
+    
+  </channel>
+</rss>

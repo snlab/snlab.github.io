@@ -1,0 +1,105 @@
+.member-position {
+    margin-bottom: 10px;
+}
+
+.archive-member {
+    display: block;
+	padding: 0px;
+	margin-bottom: 0px;
+    height: 240px;
+	overflow: hidden;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+	page-break-inside: avoid;
+	break-inside: avoid-column;
+	-webkit-column-break-inside: avoid;
+}
+.archive-member:before,
+.archive-member:after {
+	content: "";
+	display: table;
+}
+.archive-member:after {
+	clear: both;
+}
+
+.archive-member-inner {
+    text-align: center;
+}
+
+.archive-member-thumbnail {
+	float: left;
+    width: 100%;
+    margin: 10px;
+}
+.archive-member-thumbnail .thumbnail {
+	width: 150px;
+	height: 150px;
+    margin: 0 auto !important;
+    border-radius: 50%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.archive-member-thumbnail .thumbnail span {
+	width: 100%;
+	height: 100%;
+	display: block;
+    margin: 0 auto !important;
+}
+.archive-member-thumbnail .thumbnail .thumbnail-image {
+	position: absolute;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.archive-member-thumbnail .thumbnail .thumbnail-none {
+	background-image: url("images/avatar.png");
+}
+@media screen and (max-width: 559px) {
+	.archive-member-thumbnail .thumbnail {
+		width: 120px;
+		height: 67.5px;
+	}
+}
+
+.archive-member-title {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+@media screen and (max-width: 559px) {
+	.archive-member-title {
+		font-size: 1em;
+		line-height: 1em;
+		height: 1em;
+		overflow: hidden;
+		display: block;
+	}
+}
+
+.archive-member-date {
+	display: block;
+	margin-top: 8px;
+}
+
+.archive-member-header {
+	float: left;
+    width: 100%;
+    margin: 0 10px;
+}
+.archive-member-header a,
+.archive-member-header a:visited {
+	color: #565a5f;
+	-webkit-transition: 0.2s ease;
+	-moz-transition: 0.2s ease;
+	-ms-transition: 0.2s ease;
+	transition: 0.2s ease;
+}
+.archive-member-header a:hover,
+.archive-member-header a:visited:hover {
+	color: #38b7ea;
+}
+.archive-member-header h1 {
+	font-size:22px;
+}
