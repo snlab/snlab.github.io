@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infocom18 on SNLab Zone</title>
+    <link>http://snlab.org/tags/infocom18/</link>
+    <description>Recent content in Infocom18 on SNLab Zone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://snlab.org/tags/infocom18/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Two papers are accepted by IEEE INFOCOM 2018!</title>
+      <link>http://snlab.org/posts/2017-12-04-infocom-18-acceptance/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://snlab.org/posts/2017-12-04-infocom-18-acceptance/</guid>
+      <description>Two papers, &amp;ldquo;Prophet: Fast, Accurate Throughput Prediction with Reactive Flows&amp;rdquo; and &amp;ldquo;Toward the First SDN Programming Capacity Theorem on Realizing High-Level Programs on Low-Level Datapaths&amp;rdquo;, are accepted by IEEE INFOCOM 2018.</description>
+    </item>
+    
+  </channel>
+</rss>
