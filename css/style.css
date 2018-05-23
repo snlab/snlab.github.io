@@ -1940,6 +1940,7 @@ h1.article-title {
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
 	padding-bottom: 4px;
+    background-color: #00356b;
 }
 
 .header-inner {
