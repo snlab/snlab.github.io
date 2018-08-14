@@ -40,4 +40,4 @@ You've reached the website of Systems Networking Lab (SNLab).
 
 Founded by Professor Y. Richard Yang (<http://www.cs.yale.edu/homes/yry/>) since the summer of 2014, and hosted in the Institute of Advanced Studies at Tongji University, the Systems Networking Lab (SNLab) will provide a stimulating, world-class environment for the advancement of both theory and systems of networks and networked systems.
 
-[Click here](/about) to learn more or [contact us](#contact).
+[Click here](/about) to learn more or [contact us](#contact) directly.
