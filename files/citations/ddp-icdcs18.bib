@@ -1,0 +1,13 @@
+@inproceedings{Li2018,
+  abstract = {How to quickly and consistently update a network is among the most fundamental and common challenges in software defined networking (SDN) systems. Current approaches heavily rely on the (logically) centralized controller to initiate and orchestrate the network updates, resulting in long latency of update completion. In this paper, we present DDP, a system for fast, distributed network updates while preserving various consistency properties. The key technique in DDP is a novel primitive named datapath operation container (DOC), where each DOC is encoded with an individual operation and its dependency logic. DDP adopts the simple, but powerful DOCs to configure the network, so that network updates can be triggered and executed at the data plane in a distributed and local manner. Novel algorithms are designed to compute and optimize the DOCs for consistent updates. We implement DDP to evaluate its performance in various update scenarios. Experimental results show that DDP significantly improves network update speed by up to 52.1{\%} for the real-time updates initiated by the controller, and further improves the speed by 55.6-61.4{\%} for the updates directly triggered at the data plane, such as failure recovery.},
+  author = {Li, Geng and Qian, Yichen and Zhao, Chenxingyu and Yang, Y. Richard and Yang, Tong},
+  booktitle = {2018 IEEE 38th International Conference on Distributed Computing Systems (ICDCS)},
+  doi = {10.1109/ICDCS.2018.00150},
+  isbn = {978-1-5386-6871-9},
+  month = {jul},
+  pages = {1468--1473},
+  publisher = {IEEE},
+  title = {{DDP: Distributed Network Updates in SDN}},
+  url = {https://ieeexplore.ieee.org/document/8416413/},
+  year = {2018}
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on SNLab - Systems Networking Lab</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on SNLab - Systems Networking Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SNlab Members attended the NSF Workshop on Algorithms for Software-Defined Networking</title>
+      <link>/post/snlab-members-attended-the-nsf-workshop-on-algorithms/</link>
+      <pubDate>Fri, 03 Jun 2016 01:02:18 +0800</pubDate>
+      
+      <guid>/post/snlab-members-attended-the-nsf-workshop-on-algorithms/</guid>
+      <description>SNLab members (Hu Ning, Du Haizhou, Xiang Qiao, Pen Dan) recently attended the NSF Algorithms in the Field (AiTF) Workshop on Algorithms for Software-Defined Networking in June 2-3, 2016. This workshop is sponsored by the Algorithms in the Field (AiTF) program of the National Science Foundation and the DIMACS(Center for Discrete Mathematics &amp;amp; Theroetical Computer Science Technology Center). Including UC Berkeley, Stanford, Carnegie Mellon University, Princeton University, MIT, Google, Microsoft attended the workshop, and discuss together.</description>
+    </item>
+    
+    <item>
+      <title>ARO Workshop on Software Defined Networking for Army Applications</title>
+      <link>/post/aro-workshop-on-software-defined-networking-for-army-applications/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/post/aro-workshop-on-software-defined-networking-for-army-applications/</guid>
+      <description>SNLab organized the workshop in May 5-6th, 2016. This workshop bring together experts from software-defined networking, wireless/hybrid networks, tactical networks, high-performance computing and related disciplines to investigate both the benefits and the issues when applying SDN to army applications. The emergence of SDN, whose key features include separation between the data-plane and the control-plane of networks, and logically centralized network control, has potential to completely reshape the field of computer networking.</description>
+    </item>
+    
+    <item>
+      <title>Demonstration of ALTO SPEC on 2016 Internet2 Global Summit</title>
+      <link>/post/demonstration-of-alto-spce-on-2016-internet2-global-summit/</link>
+      <pubDate>Tue, 24 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/post/demonstration-of-alto-spce-on-2016-internet2-global-summit/</guid>
+      <description>2016 Internet2 Global Summit was successfully held in Chicago, Illinois on May 15 to May 18.The Internet2 Global Summit is a leading forum to support and drive the advancement of research and education, spur next-generation innovation and accelerate global discovery.
+SNlab cooperated with CERN from Caltech on the discussion and demonstration of latest achievements among this summit. Core members including Jensen Zhang, Mingming Chen, Qiao Xiang, Kai Gao, May Wang and Shawn Lin attended the summit.</description>
+    </item>
+    
+    <item>
+      <title>Spring Summit of SNLab Held</title>
+      <link>/post/spring-summit-of-snlab-held/</link>
+      <pubDate>Mon, 28 Mar 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/post/spring-summit-of-snlab-held/</guid>
+      <description>Spring Summit of SNlab is held on March 21 to March 23 in College of Computer Science, Tongji University.
+Summit invited researchers from Qinghua, Yale, University of Science and Technology, Shanghai Jiao Tong University, Nanjing University of Posts and telecommunications and Chinese Academy of Sciences to engage in the summit.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on SNLab - Systems Networking Lab</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on SNLab - Systems Networking Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SFP: Toward Interdomain Routing for SDN Networks (Poster)</title>
+      <link>/publication/sfp-poster-sigcomm18/</link>
+      <pubDate>Fri, 10 Aug 2018 11:33:03 +0800</pubDate>
+      
+      <guid>/publication/sfp-poster-sigcomm18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental Primitive to Enable High-Performance, Collaborative Data Sciences (Poster)</title>
+      <link>/publication/resa-poster-sigcomm18/</link>
+      <pubDate>Fri, 10 Aug 2018 11:32:10 +0800</pubDate>
+      
+      <guid>/publication/resa-poster-sigcomm18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trident: toward a unified SDN programming framework with automatic updates</title>
+      <link>/publication/trident-sigcomm18/</link>
+      <pubDate>Fri, 10 Aug 2018 11:24:31 +0800</pubDate>
+      
+      <guid>/publication/trident-sigcomm18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DDP: Distributed Network Updates in SDN</title>
+      <link>/publication/ddp-icdcs18/</link>
+      <pubDate>Fri, 10 Aug 2018 11:18:41 +0800</pubDate>
+      
+      <guid>/publication/ddp-icdcs18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NOVA: Towards on-demand equivalent network view abstraction for network optimization</title>
+      <link>/publication/nova-iwqos17/</link>
+      <pubDate>Fri, 14 Jul 2017 11:09:34 +0800</pubDate>
+      
+      <guid>/publication/nova-iwqos17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ORSAP: Abstracting routing state on demand (Poster)</title>
+      <link>/publication/orsap-poster-icnp16/</link>
+      <pubDate>Tue, 08 Nov 2016 11:01:47 +0800</pubDate>
+      
+      <guid>/publication/orsap-poster-icnp16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FAST: A Simple Programming Abstraction for Complex State-Dependent SDN Programming (Poster)</title>
+      <link>/publication/fast-poster-sigcomm16/</link>
+      <pubDate>Sat, 20 Aug 2016 10:52:00 +0800</pubDate>
+      
+      <guid>/publication/fast-poster-sigcomm16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magellan: Generating Multi-Table Datapath from Datapath Oblivious Algorithmic SDN Policies (Poster)</title>
+      <link>/publication/magellan-poster-sigcomm16/</link>
+      <pubDate>Sat, 20 Aug 2016 10:22:32 +0800</pubDate>
+      
+      <guid>/publication/magellan-poster-sigcomm16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
