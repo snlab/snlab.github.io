@@ -12,6 +12,9 @@ authors = []
 tags = ["workshop"]
 categories = ["News"]
 
+# Does this page contain LaTeX math? (true/false)
+math = true
+
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 # Use `caption` to display an image caption.
@@ -24,7 +27,7 @@ preview = true
 
 +++
 
-SNLab organized the workshop in May 5-6<sup><span style="font-family: 'Times New Roman';font-size: 16px;vertical-align: super">th</span></sup>, 2016. This workshop bring together experts from software-defined networking, wireless/hybrid networks, tactical networks, high-performance computing and related disciplines to investigate both the benefits and the issues when applying SDN to army applications. The emergence of SDN, whose key features include separation between the data-plane and the control-plane of networks, and logically centralized network control, has potential to completely reshape the field of computer networking. Going beyond conceptual models, the existing deployment of SDN in major data centers (e.g., Google and Microsoft data centers) has demonstrated the substantial gain and flexibility of SDN. However, the existing initiatives of SDN focus mostly on non-tactical data center networks, service provider networks, and enterprise networks. Given the substantial potential of SDN, it is imperative that we develop a better understanding of both the impacts and the potential issues of applying SDN to Army Applications, primarily for multi-hop wireless/hybrid networks, but also for high performance computing in the army context. 
+SNLab organized the workshop in May 5-6$^{th}$, 2016. This workshop bring together experts from software-defined networking, wireless/hybrid networks, tactical networks, high-performance computing and related disciplines to investigate both the benefits and the issues when applying SDN to army applications. The emergence of SDN, whose key features include separation between the data-plane and the control-plane of networks, and logically centralized network control, has potential to completely reshape the field of computer networking. Going beyond conceptual models, the existing deployment of SDN in major data centers (e.g., Google and Microsoft data centers) has demonstrated the substantial gain and flexibility of SDN. However, the existing initiatives of SDN focus mostly on non-tactical data center networks, service provider networks, and enterprise networks. Given the substantial potential of SDN, it is imperative that we develop a better understanding of both the impacts and the potential issues of applying SDN to Army Applications, primarily for multi-hop wireless/hybrid networks, but also for high performance computing in the army context. 
 
 We invited some famous professors and scientists to discuss some SDN challenge problem, including Yale, UCLA, Imperial College, University of Pennsylvania, Caltech, Carnegie Mellon University, Princeton University, MIT, DARPA, IBM, Uber etc. famous university and company.
 

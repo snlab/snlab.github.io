@@ -28,7 +28,7 @@ SNLab members (Hu Ning, Du Haizhou, Xiang Qiao, Pen Dan) recently attended the N
 
 The main goal of this workshop is to bring together researchers working at the intersection of the theory and practice of networking, with a special focus on the applicability of these ideas to SDN, in the hope of jumpstarting collaborations between theoreticians and networking researchers in this area. This provide not only an opportunity for the networking community to get new ideas and approaches, but will also provide a tremendous opportunity for the theoretical community, both as a source of new algorithmic problems and as a way to have a direct impact. This is to some extent in contrast to the traditional networking paradigm, where the algorithmic problems often do not have a path to deployment as they are constrained by existing protocols.
 
-![NSF Workshop](/static/img/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms.jpg)
+![NSF Workshop](/img/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms.jpg)
 
 Xiang Qiao, represented the SNLab made a speech about Magellan: Toward Automatic Multi-Table SDN Programming. He systematic tell that Multi-table pipelining has emerged as a key technique for the next-generation SDN data path. Programming such a data path model, however, can be challenging. In this talk, he also discusses several algorithmic challenges in programming multi-table pipelines. This talk attracted both academic and industrial researchers. They gave some good suggestion and comments to us. And most of them highly agree with our research.
 
