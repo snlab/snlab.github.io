@@ -87,6 +87,24 @@
     </item>
     
     <item>
+      <title>Toward the First SDN Programming Capacity Theorem on Realizing High-Level Programs on Low-Level Datapaths</title>
+      <link>/publication/capacity-theorem-infocom18/</link>
+      <pubDate>Tue, 17 Apr 2018 01:38:49 +0800</pubDate>
+      
+      <guid>/publication/capacity-theorem-infocom18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prophet: Fast Accurate Model-based Throughput Prediction for Reactive Flow in DC Networks</title>
+      <link>/publication/prophet-infocom18/</link>
+      <pubDate>Mon, 16 Apr 2018 01:38:37 +0800</pubDate>
+      
+      <guid>/publication/prophet-infocom18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>NOVA: Towards on-demand equivalent network view abstraction for network optimization</title>
       <link>/publication/nova-iwqos17/</link>
       <pubDate>Fri, 14 Jul 2017 11:09:34 +0800</pubDate>
@@ -141,7 +159,7 @@
 
 &lt;p&gt;The main goal of this workshop is to bring together researchers working at the intersection of the theory and practice of networking, with a special focus on the applicability of these ideas to SDN, in the hope of jumpstarting collaborations between theoreticians and networking researchers in this area. This provide not only an opportunity for the networking community to get new ideas and approaches, but will also provide a tremendous opportunity for the theoretical community, both as a source of new algorithmic problems and as a way to have a direct impact. This is to some extent in contrast to the traditional networking paradigm, where the algorithmic problems often do not have a path to deployment as they are constrained by existing protocols.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/static/img/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms.jpg&#34; alt=&#34;NSF Workshop&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms.jpg&#34; alt=&#34;NSF Workshop&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Xiang Qiao, represented the SNLab made a speech about Magellan: Toward Automatic Multi-Table SDN Programming. He systematic tell that Multi-table pipelining has emerged as a key technique for the next-generation SDN data path. Programming such a data path model, however, can be challenging. In this talk, he also discusses several algorithmic challenges in programming multi-table pipelines. This talk attracted both academic and industrial researchers. They gave some good suggestion and comments to us. And most of them highly agree with our research.&lt;/p&gt;
 
@@ -155,7 +173,7 @@
       <pubDate>Tue, 31 May 2016 00:00:00 +0800</pubDate>
       
       <guid>/post/aro-workshop-on-software-defined-networking-for-army-applications/</guid>
-      <description>&lt;p&gt;SNLab organized the workshop in May 5-6&lt;sup&gt;&lt;span style=&#34;font-family: &#39;Times New Roman&#39;;font-size: 16px;vertical-align: super&#34;&gt;th&lt;/span&gt;&lt;/sup&gt;, 2016. This workshop bring together experts from software-defined networking, wireless/hybrid networks, tactical networks, high-performance computing and related disciplines to investigate both the benefits and the issues when applying SDN to army applications. The emergence of SDN, whose key features include separation between the data-plane and the control-plane of networks, and logically centralized network control, has potential to completely reshape the field of computer networking. Going beyond conceptual models, the existing deployment of SDN in major data centers (e.g., Google and Microsoft data centers) has demonstrated the substantial gain and flexibility of SDN. However, the existing initiatives of SDN focus mostly on non-tactical data center networks, service provider networks, and enterprise networks. Given the substantial potential of SDN, it is imperative that we develop a better understanding of both the impacts and the potential issues of applying SDN to Army Applications, primarily for multi-hop wireless/hybrid networks, but also for high performance computing in the army context.&lt;/p&gt;
+      <description>&lt;p&gt;SNLab organized the workshop in May 5-6$^{th}$, 2016. This workshop bring together experts from software-defined networking, wireless/hybrid networks, tactical networks, high-performance computing and related disciplines to investigate both the benefits and the issues when applying SDN to army applications. The emergence of SDN, whose key features include separation between the data-plane and the control-plane of networks, and logically centralized network control, has potential to completely reshape the field of computer networking. Going beyond conceptual models, the existing deployment of SDN in major data centers (e.g., Google and Microsoft data centers) has demonstrated the substantial gain and flexibility of SDN. However, the existing initiatives of SDN focus mostly on non-tactical data center networks, service provider networks, and enterprise networks. Given the substantial potential of SDN, it is imperative that we develop a better understanding of both the impacts and the potential issues of applying SDN to Army Applications, primarily for multi-hop wireless/hybrid networks, but also for high performance computing in the army context.&lt;/p&gt;
 
 &lt;p&gt;We invited some famous professors and scientists to discuss some SDN challenge problem, including Yale, UCLA, Imperial College, University of Pennsylvania, Caltech, Carnegie Mellon University, Princeton University, MIT, DARPA, IBM, Uber etc. famous university and company.&lt;/p&gt;
 
@@ -184,18 +202,6 @@
 &lt;p&gt;&lt;img src=&#34;/static/img/2016-05-31-demonstration-of-alto-spce-on-2016-internet2-global-summit-2.png&#34; alt=&#34;CMS Experiment&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;SNlab and Caltech will keep working  together on the great issues of SDN.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Spring Summit of SNLab Held</title>
-      <link>/post/spring-summit-of-snlab-held/</link>
-      <pubDate>Mon, 28 Mar 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/post/spring-summit-of-snlab-held/</guid>
-      <description>&lt;p&gt;Spring Summit of SNlab is held on March 21 to March 23 in College of Computer Science, Tongji University.&lt;/p&gt;
-
-&lt;p&gt;Summit invited researchers from Qinghua, Yale, University of Science and Technology, Shanghai Jiao Tong University, Nanjing University of Posts and telecommunications and Chinese Academy of Sciences to engage in the summit.&lt;/p&gt;
 </description>
     </item>
     
