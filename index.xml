@@ -11,6 +11,56 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Congratulation: SNLab Published A Number of Top-Level Papers in Networking and System Areas in 2018</title>
+      <link>/post/snlab-published-serveral-top-papers-in-networking-and-system-areas/</link>
+      <pubDate>Fri, 31 Aug 2018 22:15:28 +0800</pubDate>
+      
+      <guid>/post/snlab-published-serveral-top-papers-in-networking-and-system-areas/</guid>
+      <description>&lt;p&gt;In year 2018, the SNLab (Systems Networking Lab) at Tongji-Yale Center of
+Advanced Networks and Networked Systems (TYCAN) led by Professor Y. Richard Yang
+has published a number of top-level papers, including four CCF A papers accepted
+by ACM SIGCOMM, IEEE INFOCOM (the top conferences in computer networking) and
+SuperComputing (the top conference in computer systems) individually. The paper
+&amp;ldquo;&lt;a href=&#34;/publication/prophet-infocom18&#34;&gt;&lt;em&gt;Prophet: Fast Accurate Model-based Throughput Prediction forReactive Flow in
+DC Networks&lt;/em&gt;&lt;/a&gt;” is accepted by IEEE INFOCOM 2018.
+This paper is completed by the Ph.D. student Jingxuan Zhang and collaborators
+from Tsinghua University and Yale University. The paper “&lt;a href=&#34;/publication/capacity-theorem-infocom18&#34;&gt;&lt;em&gt;Toward the First SDN
+Programming Capacity Theorem on Realizing High-Level Programs on Low-Level
+Datapaths&lt;/em&gt;&lt;/a&gt;” is also received by IEEE
+INFOCOM 2018. It is completed by the Ph.D. student Xin Wang during his visiting
+student period at Yale University with others from Yale University. The paper
+“&lt;a href=&#34;/publication/trident-sigcomm18&#34;&gt;&lt;em&gt;Trident: Towards a Unified SDN Programming Framework with Automatic
+Updates&lt;/em&gt;&lt;/a&gt;” is accepted by ACM SIGCOMM 2018. The
+paper “*Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental
+Primitive to Enable High-Performance, Collaborative Data Sciences*” is accepted
+by SuperComputing 2018. The first author of this paper is Qiao Xiang, a
+post-doctoral fellow of TYCAN; meanwhile, Xin Wang, Jingxuan Zhang and Yang Liu
+are co-authors. Also, Qiao Xiang’s another paper “*OpenSDC: A Novel, Generic
+Datapath for Software Defined Coalitions*” is accepted by IEEE MILCOM 2018, the
+top conference in the military field. In addition, the paper “&lt;a href=&#34;/publication/ddp-icdcs18&#34;&gt;&lt;em&gt;DDP: Distributed
+Network Updates in SDN&lt;/em&gt;&lt;/a&gt;” is accepted by IEEE
+ICDCS 2018. The first author of this paper is Geng Li, a post-doctoral fellow of
+TYCAN. Yichen Qian, a Ph.D student at Tongji University, is one of the
+co-authors.&lt;/p&gt;
+
+&lt;p&gt;ACM SIGCOMM and IEEE INFOCOM are top conferences in computer networking, of
+which SIGCOMM is the flagship conference in this field. The quality requirements
+of the papers accepted by these two conferences are extremely strict. Many
+significant papers in computer networking are published at these two
+conferences. The SuperComputing (SC) conference, also known as International
+Conference for High Performance Computing, Networking, Storage and Analysis, is
+regarded as one of the world’s top academic conferences in the field of high
+performance computing. The annually global TOP500 supercompuer list is released
+through the SC, and the major manufactures and universities related to
+super-calculation will be exhibited at the conference to show their latest
+products and research results, so the SC conference has always been a great
+event in the high-performance computing field. ICDCS is the top conference in
+the field of distributed computing; and MILCOM is the flagship conference in the
+military communications field.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Tue, 14 Aug 2018 12:40:43 +0800</pubDate>
@@ -150,7 +200,7 @@
     </item>
     
     <item>
-      <title>SNlab Members attended the NSF Workshop on Algorithms for Software-Defined Networking</title>
+      <title>SNLab Members attended the NSF Workshop on Algorithms for Software-Defined Networking</title>
       <link>/post/snlab-members-attended-the-nsf-workshop-on-algorithms/</link>
       <pubDate>Fri, 03 Jun 2016 01:02:18 +0800</pubDate>
       
@@ -180,28 +230,6 @@
 &lt;p&gt;Y. Richard Yang as a chair , made a key note speech. And he introduced some recently research. A key benefit of SDN is logically centralized control. There is a large body of existing work of SDN control path, but they are mostly in the context of wired networks such as data center networks and wide-area networks (WAN). By control path, we mean the complete spectrum from controller placement, controller fault tolerance, controller programming, and controller-forwarding elements integration.&lt;/p&gt;
 
 &lt;p&gt;This workshop reviewed key related work and warmly discussed issues with potential outcomes. The workshop successful hold and all of attendees are very satisfied with the outcome of the workshop.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Demonstration of ALTO SPEC on 2016 Internet2 Global Summit</title>
-      <link>/post/demonstration-of-alto-spce-on-2016-internet2-global-summit/</link>
-      <pubDate>Tue, 24 May 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/post/demonstration-of-alto-spce-on-2016-internet2-global-summit/</guid>
-      <description>&lt;p&gt;&lt;em&gt;2016 Internet2 Global Summit&lt;/em&gt; was successfully held in Chicago, Illinois on May 15 to May 18.The Internet2 Global Summit is a leading forum to support and drive the advancement of research and education, spur next-generation innovation and accelerate global discovery.&lt;/p&gt;
-
-&lt;p&gt;SNlab cooperated with CERN from Caltech on the discussion and demonstration of latest achievements among this summit. Core members including Jensen Zhang, Mingming Chen, Qiao Xiang, Kai Gao, May Wang and Shawn Lin attended the summit.&lt;/p&gt;
-
-&lt;p&gt;Achievements on development of ALTO SPCE was presented and received great acclaim from attendees.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/static/img/2016-05-31-demonstration-of-alto-spce-on-2016-internet2-global-summit-1.png&#34; alt=&#34;ALTO SPCE Demo&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;SNlab&amp;rsquo;s major work is based on the SDN controller OpenDaylight. This demonstration is bulit on the environment provided by Caltech, with several Pica8 and SDN switches(from Dell) and work with standard protocol OpenFlow to connect OpenDaylight. The convertion from virtual environment to the real is a great breakthrough .&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/static/img/2016-05-31-demonstration-of-alto-spce-on-2016-internet2-global-summit-2.png&#34; alt=&#34;CMS Experiment&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;SNlab and Caltech will keep working  together on the great issues of SDN.&lt;/p&gt;
 </description>
     </item>
     

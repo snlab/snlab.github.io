@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic on SNLab - Systems Networking Lab</title>
+    <link>/tags/academic/</link>
+    <description>Recent content in Academic on SNLab - Systems Networking Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 31 Aug 2018 22:15:28 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Congratulation: SNLab Published A Number of Top-Level Papers in Networking and System Areas in 2018</title>
+      <link>/post/snlab-published-serveral-top-papers-in-networking-and-system-areas/</link>
+      <pubDate>Fri, 31 Aug 2018 22:15:28 +0800</pubDate>
+      
+      <guid>/post/snlab-published-serveral-top-papers-in-networking-and-system-areas/</guid>
+      <description>In year 2018, the SNLab (Systems Networking Lab) at Tongji-Yale Center of Advanced Networks and Networked Systems (TYCAN) led by Professor Y. Richard Yang has published a number of top-level papers, including four CCF A papers accepted by ACM SIGCOMM, IEEE INFOCOM (the top conferences in computer networking) and SuperComputing (the top conference in computer systems) individually. The paper &amp;ldquo;Prophet: Fast Accurate Model-based Throughput Prediction forReactive Flow in DC Networks” is accepted by IEEE INFOCOM 2018.</description>
+    </item>
+    
+  </channel>
+</rss>

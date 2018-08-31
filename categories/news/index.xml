@@ -7,13 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 03 Jun 2016 01:02:18 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 Aug 2018 22:15:28 +0800</lastBuildDate>
     
 	<atom:link href="/categories/news/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>SNlab Members attended the NSF Workshop on Algorithms for Software-Defined Networking</title>
+      <title>Congratulation: SNLab Published A Number of Top-Level Papers in Networking and System Areas in 2018</title>
+      <link>/post/snlab-published-serveral-top-papers-in-networking-and-system-areas/</link>
+      <pubDate>Fri, 31 Aug 2018 22:15:28 +0800</pubDate>
+      
+      <guid>/post/snlab-published-serveral-top-papers-in-networking-and-system-areas/</guid>
+      <description>In year 2018, the SNLab (Systems Networking Lab) at Tongji-Yale Center of Advanced Networks and Networked Systems (TYCAN) led by Professor Y. Richard Yang has published a number of top-level papers, including four CCF A papers accepted by ACM SIGCOMM, IEEE INFOCOM (the top conferences in computer networking) and SuperComputing (the top conference in computer systems) individually. The paper &amp;ldquo;Prophet: Fast Accurate Model-based Throughput Prediction forReactive Flow in DC Networks” is accepted by IEEE INFOCOM 2018.</description>
+    </item>
+    
+    <item>
+      <title>SNLab Members attended the NSF Workshop on Algorithms for Software-Defined Networking</title>
       <link>/post/snlab-members-attended-the-nsf-workshop-on-algorithms/</link>
       <pubDate>Fri, 03 Jun 2016 01:02:18 +0800</pubDate>
       
