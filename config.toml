@@ -269,27 +269,57 @@ enableGitInfo = false
 [[menu.main]]
   name = "Home"
   url = "#about"
-  weight = 1
+  weight = 100
 
 [[menu.main]]
   name = "Publications"
+  identifier = "publications"
+  weight = 200
+
+[[menu.main]]
+  name = "Selected Publications"
   url = "#publications_selected"
-  weight = 2
+  parent = "publications"
+  weight = 210
+
+[[menu.main]]
+  name = "Recent Publications"
+  url = "#publications"
+  parent = "publications"
+  weight = 220
+
+[[menu.main]]
+  name = "All Publications"
+  url = "/publication"
+  parent = "publications"
+  weight = 230
 
 [[menu.main]]
   name = "Posts"
+  identifier = "posts"
+  weight = 300
+
+[[menu.main]]
+  name = "Recent Posts"
   url = "#posts"
-  weight = 3
+  parent = "posts"
+  weight = 310
+
+[[menu.main]]
+  name = "All Posts"
+  url = "/post"
+  parent = "posts"
+  weight = 320
 
 [[menu.main]]
   name = "Projects"
   url = "#projects"
-  weight = 4
+  weight = 400
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 5
+  weight = 500
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

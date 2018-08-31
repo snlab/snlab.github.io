@@ -1,5 +1,5 @@
 +++
-title = "SNlab Members attended the NSF Workshop on Algorithms for Software-Defined Networking"
+title = "SNLab Members attended the NSF Workshop on Algorithms for Software-Defined Networking"
 date = 2016-06-03T01:02:18+08:00
 lastmod = 2016-06-14T01:02:18+08:00
 draft = false
