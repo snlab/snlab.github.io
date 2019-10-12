@@ -1,0 +1,245 @@
+# SITE SETUP
+# Documentation: https://sourcethemes.com/academic/
+
+############################
+## Theme
+############################
+
+# Choose a theme.
+#   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
+#   Browse built-in themes in `themes/academic/data/themes/`
+#   Browse user installed themes in `data/themes/`
+theme = "coffee"
+
+# Enable users to switch between day and night mode?
+day_night = true
+
+# Override the theme's font set (optional).
+#   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
+#   Browse built-in font sets in `themes/academic/data/fonts/`
+#   Browse user installed font sets in `data/fonts/`
+font = ""
+
+# Choose a font size.
+# Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
+font_size = "L"
+
+############################
+## Basic Info
+############################
+
+# Website type
+#   Improve how search engines understand your site.
+#   For personal sites, choose "Person".
+#   For organizations and projects, choose from https://schema.org/Organization#subtypes
+#   E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
+site_type = "EducationalOrganization"
+
+# Local business type (optional)
+# If you entered "LocalBusiness" above, choose the type of business from https://schema.org/LocalBusiness#subtypes
+local_business_type = ""
+
+# Organization name (optional)
+# Enter an organization or project name. Defaults to the site title from `config.toml`.
+org_name = ""
+
+# Description for social sharing and search engines. If undefined, superuser role is used in place.
+description = ""
+
+# Display a logo in navigation bar rather than title (optional).
+#   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
+logo = ""
+
+############################
+## Social
+############################
+
+# Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+sharing_image = ""
+
+# Twitter username (without @). Used when a vistor shares your site on Twitter.
+twitter = ""
+
+############################
+## Site Features
+############################
+
+# Enable global source code highlighting? true/false
+# Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
+highlight = true
+# highlight_languages = ["r"]  # Add support for highlighting additional languages
+# highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
+
+# Enable global LaTeX math rendering?
+#   If false, you can enable it locally on a per page basis.
+math = false
+
+# Enable global bibtex rendering?
+#   If false, you can enable it locally on a per page basis.
+bibtex = false
+
+# Privacy pack
+#   Show a cookie consent message to visitors
+#   Anonymize IP in Google Analytics (if enabled)
+privacy_pack = false
+
+############################
+## Regional Settings
+############################
+
+# Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+#   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+date_format = "Jan 2, 2006"
+#   Examples: "3:04 pm" or "15:04"
+time_format = "3:04 PM"
+
+# List delimiter (separates parts of an address)
+# Popular separators are ", " (comma), "<br>" (new line), " " (space)
+list_delimiter = ", "
+
+############################
+## Contact details
+##
+## These details power the Contact widget (if enabled).
+## Additionally, for organizations, these details may be used to enrich search engine results.
+############################
+
+# Enter contact details (optional). To hide a field, clear it to "".
+email = "snlab.org@gmail.com"
+phone = ""
+
+# Address
+# For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
+address = {street = "4800 Cao'An Hwy", city = "Shanghai", region = "Shanghai", postcode = "201804", country = "China", country_code = "CN"}
+
+# Geographic coordinates
+# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
+coordinates = {latitude = "31.28958", longitude = "121.20829"}
+
+# Directions for visitors to locate you.
+directions = "Go to Room 219 of Zhixin Hall at Tongji University (Jiading Campus)"
+
+# Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
+# office_hours = "10:00 to 17:00 Every Weekday"
+office_hours = "Open from 9:30 to 23:00 every weekday"
+
+# Enter an optional link for booking appointments (e.g. calendly.com).
+# appointment_url = "https://calendly.com"
+
+# Contact links
+#   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
+contact_links = []
+
+############################
+## Plugins                ##
+############################
+
+# Load CSS and JS plugins
+#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
+#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
+plugins_css = [
+  "snlab"
+]
+plugins_js  = []
+
+############################
+## Advanced options       ##
+############################
+
+# Get user avatars from Gravatar.com? (true/false)
+gravatar = false
+
+# Align the main menu to the right of the page? (true/false)
+menu_align_right = true
+
+# Show estimated reading time for posts? (true/false)
+reading_time = true
+
+# Display comment count (if commenting enabled in config.toml)? (true/false)
+comment_count = true
+
+# Display next/previous section pager? (true/false)
+section_pager = false
+
+# Enable in-built social sharing buttons? (true/false)
+sharing = true
+
+############################
+## Comments
+############################
+[comments]
+  # Comment provider:
+  #   0: Disabled
+  #   1: Disqus (https://disqus.com)
+  #   2: Commento (https://commento.io)
+  engine = 0
+
+  # Which page types are commentable?
+  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
+
+  # Configuration of Disqus.
+  [comments.disqus]
+    shortname = ""  # Paste the shortname from your Disqus dashboard.
+    show_count = true  # Show comment count in page header? (true/false)
+
+############################
+## Search
+############################
+[search]
+  # Search provider:
+  #   0: No search engine
+  #   1: Academic (built-in)
+  #   2: Algolia (https://www.algolia.com)
+  engine = 1
+
+  # Configuration of Algolia search engine.
+  # Paste the values from your Algolia dashboard.
+  [search.algolia]
+    app_id = ""
+    api_key = ""
+    index_name = ""
+    show_logo = false
+
+############################
+## Maps
+############################
+[map]
+  # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
+  # and choose a map provider below.
+  #
+  # To use Google Maps, set `engine` to 1 and enter your API key that can be obtained here:
+  #   https://developers.google.com/maps/documentation/javascript/get-api-key
+  # To use OpenStreetMap tiles, set `engine` to 2.
+  # To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
+  #   https://www.mapbox.com/studio/account/tokens
+  #
+  # Map provider:
+  #   0: No map
+  #   1: Google Maps
+  #   2: OpenStreetMap (Mapnik)
+  #   3: OpenStreetMap (Mapbox)
+  engine = 2
+  api_key = ""
+  zoom = 18
+  # latitude = "31.28958"
+  # longitude = "121.20829"
+
+# Configuration of publication pages.
+[publications]
+  # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "January 2006"
+
+  # Citation style ("apa" or "mla")
+  citation_style = "mla"
+
+# Configuration of project pages.
+[projects]
+  # Views for associated content.
+  #   1: List
+  #   2: Compact
+  #   3: Card
+  #   4: Citation (publications only)
+  post_view = 2
+  publication_view = 2
+  talk_view = 2

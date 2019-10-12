@@ -2,19 +2,15 @@
 title = "DDP: Distributed Network Updates in SDN"
 date = 2018-08-10T11:18:41+08:00
 draft = false
+doi = "10.1109/ICDCS.2018.00150"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Geng Li", "Yichen Qian", "Chenxinyu Zhao", "Y. Richard Yang", "Tong Yang"]
 
 # Publication type.
-# Legend:
-# 0 = Uncategorized
-# 1 = Conference paper
-# 2 = Journal article
-# 3 = Manuscript
-# 4 = Report
-# 5 = Book
-# 6 = Book section
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
@@ -31,20 +27,26 @@ image_preview = ""
 # Is this a selected publication? (true/false)
 selected = false
 
-# Projects (optional).
+# Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
-#   Simply enter your project's filename without extension.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-#   Otherwise, set `projects = []`.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
 projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = []
 
-# Links (optional).
+# Custom links (optional).
+#   Uncomment and edit lines below to show custom links.
+# links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
+# links = [{name = "ieeexplore", url = "https://ieeexplore.ieee.org/document/8416413/"}]
 url_pdf = ""
-url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
@@ -53,20 +55,24 @@ url_video = ""
 url_poster = ""
 url_source = ""
 
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "ieeexplore", url = "https://ieeexplore.ieee.org/document/8416413/"}]
-
 # Does this page contain LaTeX math? (true/false)
 math = false
 
 # Does this page require source code highlighting? (true/false)
 highlight = true
 
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides = ""
+
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+[image]
 caption = ""
+focal_point = ""
+preview_only = false
 
 +++

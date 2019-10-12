@@ -1,0 +1,2 @@
+    {{ $js_snlab := resources.Get "js/snlab.js" | minify }}
+    <script src="{{ $js_snlab.RelPermalink }}"></script>
