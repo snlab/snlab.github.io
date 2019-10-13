@@ -8,7 +8,7 @@ title = "Recent & Upcoming Talks"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 30
+weight = 50
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

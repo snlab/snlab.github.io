@@ -2,7 +2,7 @@
 title = "ORSAP: Abstracting routing state on demand (Poster)"
 date = 2016-11-08T11:01:47+08:00
 draft = false
-doi = "10.1109/IWQoS.2017.7969117"
+doi = "10.1109/ICNP.2016.7784454"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Kai Gao", "Chen Gu", "Qiao Xiang", "Xin Wang", "Y. Richard Yang", "Jun Bi"]

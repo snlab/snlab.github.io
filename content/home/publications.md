@@ -9,7 +9,7 @@ title = "Recent Publications"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 20
+weight = 40
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

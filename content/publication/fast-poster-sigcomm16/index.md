@@ -14,7 +14,7 @@ publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
 publication = "In Proceedings of *the Conference of the ACM Special Interest Group on Data Communication (SIGCOMM)*"
-publication_short = "In *SIGCOMM*"
+publication_short = "SIGCOMM"
 
 # Abstract and optional shortened version.
 abstract = "Handling state dependencies is a major challenge in modern SDN programming, but existing frameworks do not provide sufficient abstractions nor tools to address this challenge. In this paper, we propose a novel, high-level programming abstraction and implement the *Function Automation SysTem (FAST)*. With the two key features, i.e., *automated state dependency tracking* and *efficient re-execution scheduling*, we demonstrate that FAST substantially simplifies state-dependent SDN programming and boosts the performance."

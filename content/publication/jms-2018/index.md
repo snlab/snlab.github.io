@@ -1,0 +1,14 @@
+---
+title: "JMS: Joint Bandwidth Allocation and Flow Assignment for Transfers with Multiple Sources"
+date: 2018-06-01
+publishDate: 2019-10-12T21:09:28.234565Z
+authors: ["G. Li", "Y. Qian", "L. Liu", "Y. R. Yang"]
+publication_types: ["1"]
+abstract: "The increasing prevalence of data-intensive applications has made large-scale data transfers more important in datacenter networks. Excessive traffic demand in oversubscribed networks has caused serious performance bottlenecks. Data replicas, with the advantage of source diversity, can potentially improve the transmission performance, but current work focuses heavily on best replica selection rather than multi-source transmission. In this paper, we present JMS, a novel traffic management system that optimizes bulk multi-source transfers in software-defined datacenter networks. With a global network view and consistent data access, JMS conveys data in parallel from multiple distributed sources and dynamically adjusts the flow volumes to maximize network utilization. The joint bandwidth allocation and flow assignment optimization problem poses a major challenge with respect to nonlinearity and multiple objectives. To cope with this, we design a fair allocation algorithm that derives a novel transformation with simple equivalent canonical linear programming to efficiently achieve global optimality. Simulation results demonstrate that JMS outperforms other transmission approaches with substantial gains, where JMS improves the network throughput by up to 52% and reduces the transfer completion time by up to 44%."
+featured: false
+publication: "*2018 IEEE Third International Conference on Data Science in Cyberspace (DSC)*"
+publication_short: "DSC"
+tags: ["bandwidth allocation", "computer centres", "linear programming", "resource allocation", "software defined networking", "telecommunication traffic", "transmission performance", "source diversity", "data replicas", "oversubscribed networks", "excessive traffic demand", "large-scale data transfers", "data-intensive applications", "multiple sources", "transfer completion time", "network throughput", "global optimality", "fair allocation algorithm", "multiple objectives", "nonlinearity", "flow assignment optimization problem", "joint bandwidth allocation", "flow volumes", "multiple distributed sources", "consistent data access", "global network view", "software-defined datacenter networks", "bulk multisource transfers", "novel traffic management system", "JMS", "replica selection", "network utilization maximization", "performance bottlenecks", "canonical linear programming", "substantial gains", "Resource management", "Routing", "Dynamic scheduling", "Servers", "Channel allocation", "Heuristic algorithms", "Distributed databases", "SDN", "Traffic Engineering", "Multi source"]
+doi: "10.1109/DSC.2018.00026"
+---
+
