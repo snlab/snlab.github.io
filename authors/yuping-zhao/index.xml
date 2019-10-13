@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuping Zhao | SNLab - Systems Networking Lab</title>
+    <link>/authors/yuping-zhao/</link>
+      <atom:link href="/authors/yuping-zhao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuping Zhao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Yuping Zhao</title>
+      <link>/authors/yuping-zhao/</link>
+    </image>
+    
+    <item>
+      <title>Game-Theoretic User Association in Ultra-dense Networks with Device-to-Device Relays</title>
+      <link>/publication/li-2017/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/li-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

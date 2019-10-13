@@ -1,62 +1,139 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on SNLab - Systems Networking Lab</title>
+    <title>News | SNLab - Systems Networking Lab</title>
     <link>/categories/news/</link>
-    <description>Recent content in News on SNLab - Systems Networking Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 31 Aug 2018 22:15:28 +0800</lastBuildDate>
+      <atom:link href="/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <description>News</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 12 Oct 2019 21:21:50 -0400</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>News</title>
+      <link>/categories/news/</link>
+    </image>
     
-	<atom:link href="/categories/news/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Tongji-Yale Open Access Proceedings 2016 - 2019 is Published</title>
+      <link>/post/tongji-yale-pub-2019-release/</link>
+      <pubDate>Sat, 12 Oct 2019 21:21:50 -0400</pubDate>
+      <guid>/post/tongji-yale-pub-2019-release/</guid>
+      <description>&lt;p&gt;The open access proceedings of Tongji-Yale Systems Networking Laboratory (SNLab) (2016 - 2019) is available now. Members from SNLab have published 27 high quality articles in areas of computer networking in the past three years including papers accepted by top conferences (e.g., SIGCOMM, SC, INFOCOM, ICNP, etc.) and top journals (e.g., TON, FGCS, etc.), and internet standard proposals accepted by IETF. Many works have been presented and demonstrated in some global events. SNLab will continue to make real impact in the future.&lt;/p&gt;
+
+&lt;p&gt;The full proceedings can be downloaded here: &lt;a href=&#34;/files/tongji-yale-pub-2019.pdf&#34;&gt;[pdf]&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Congratulation: SNLab Published A Number of Top-Level Papers in Networking and System Areas in 2018</title>
       <link>/post/snlab-published-serveral-top-papers-in-networking-and-system-areas/</link>
       <pubDate>Fri, 31 Aug 2018 22:15:28 +0800</pubDate>
-      
       <guid>/post/snlab-published-serveral-top-papers-in-networking-and-system-areas/</guid>
-      <description>In year 2018, the SNLab (Systems Networking Lab) at Tongji-Yale Center of Advanced Networks and Networked Systems (TYCAN) led by Professor Y. Richard Yang has published a number of top-level papers, including four CCF A papers accepted by ACM SIGCOMM, IEEE INFOCOM (the top conferences in computer networking) and SuperComputing (the top conference in computer systems) individually. The paper &amp;ldquo;Prophet: Fast Accurate Model-based Throughput Prediction forReactive Flow in DC Networks” is accepted by IEEE INFOCOM 2018.</description>
+      <description>&lt;p&gt;In year 2018, the SNLab (Systems Networking Lab) at Tongji-Yale Center of
+Advanced Networks and Networked Systems (TYCAN) led by Professor Y. Richard Yang
+has published a number of top-level papers, including four CCF A papers accepted
+by ACM SIGCOMM, IEEE INFOCOM (the top conferences in computer networking) and
+SuperComputing (the top conference in computer systems) individually. The paper
+&amp;ldquo;&lt;a href=&#34;/publication/prophet-infocom18&#34;&gt;&lt;em&gt;Prophet: Fast Accurate Model-based Throughput Prediction forReactive Flow in
+DC Networks&lt;/em&gt;&lt;/a&gt;” is accepted by IEEE INFOCOM 2018.
+This paper is completed by the Ph.D. student Jingxuan Zhang and collaborators
+from Tsinghua University and Yale University. The paper “&lt;a href=&#34;/publication/capacity-theorem-infocom18&#34;&gt;&lt;em&gt;Toward the First SDN
+Programming Capacity Theorem on Realizing High-Level Programs on Low-Level
+Datapaths&lt;/em&gt;&lt;/a&gt;” is also received by IEEE
+INFOCOM 2018. It is completed by the Ph.D. student Xin Wang during his visiting
+student period at Yale University with others from Yale University. The paper
+“&lt;a href=&#34;/publication/trident-sigcomm18&#34;&gt;&lt;em&gt;Trident: Towards a Unified SDN Programming Framework with Automatic
+Updates&lt;/em&gt;&lt;/a&gt;” is accepted by ACM SIGCOMM 2018. The
+paper “*Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental
+Primitive to Enable High-Performance, Collaborative Data Sciences*” is accepted
+by SuperComputing 2018. The first author of this paper is Qiao Xiang, a
+post-doctoral fellow of TYCAN; meanwhile, Xin Wang, Jingxuan Zhang and Yang Liu
+are co-authors. Also, Qiao Xiang’s another paper “*OpenSDC: A Novel, Generic
+Datapath for Software Defined Coalitions*” is accepted by IEEE MILCOM 2018, the
+top conference in the military field. In addition, the paper “&lt;a href=&#34;/publication/ddp-icdcs18&#34;&gt;&lt;em&gt;DDP: Distributed
+Network Updates in SDN&lt;/em&gt;&lt;/a&gt;” is accepted by IEEE
+ICDCS 2018. The first author of this paper is Geng Li, a post-doctoral fellow of
+TYCAN. Yichen Qian, a Ph.D student at Tongji University, is one of the
+co-authors.&lt;/p&gt;
+
+&lt;p&gt;ACM SIGCOMM and IEEE INFOCOM are top conferences in computer networking, of
+which SIGCOMM is the flagship conference in this field. The quality requirements
+of the papers accepted by these two conferences are extremely strict. Many
+significant papers in computer networking are published at these two
+conferences. The SuperComputing (SC) conference, also known as International
+Conference for High Performance Computing, Networking, Storage and Analysis, is
+regarded as one of the world’s top academic conferences in the field of high
+performance computing. The annually global TOP500 supercompuer list is released
+through the SC, and the major manufactures and universities related to
+super-calculation will be exhibited at the conference to show their latest
+products and research results, so the SC conference has always been a great
+event in the high-performance computing field. ICDCS is the top conference in
+the field of distributed computing; and MILCOM is the flagship conference in the
+military communications field.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>SNLab Members attended the NSF Workshop on Algorithms for Software-Defined Networking</title>
       <link>/post/snlab-members-attended-the-nsf-workshop-on-algorithms/</link>
       <pubDate>Fri, 03 Jun 2016 01:02:18 +0800</pubDate>
-      
       <guid>/post/snlab-members-attended-the-nsf-workshop-on-algorithms/</guid>
-      <description>SNLab members (Hu Ning, Du Haizhou, Xiang Qiao, Pen Dan) recently attended the NSF Algorithms in the Field (AiTF) Workshop on Algorithms for Software-Defined Networking in June 2-3, 2016. This workshop is sponsored by the Algorithms in the Field (AiTF) program of the National Science Foundation and the DIMACS(Center for Discrete Mathematics &amp;amp; Theroetical Computer Science Technology Center). Including UC Berkeley, Stanford, Carnegie Mellon University, Princeton University, MIT, Google, Microsoft attended the workshop, and discuss together.</description>
+      <description>&lt;p&gt;SNLab members (Hu Ning, Du Haizhou, Xiang Qiao, Pen Dan) recently attended the NSF Algorithms in the Field (AiTF) Workshop on Algorithms for Software-Defined Networking in June 2-3, 2016. This workshop is sponsored by the Algorithms in the Field (AiTF) program of the National Science Foundation and the DIMACS(Center for Discrete Mathematics &amp;amp; Theroetical Computer Science Technology Center). Including UC Berkeley, Stanford, Carnegie Mellon University, Princeton University, MIT, Google, Microsoft attended the workshop, and discuss together.&lt;/p&gt;
+
+&lt;p&gt;The main goal of this workshop is to bring together researchers working at the intersection of the theory and practice of networking, with a special focus on the applicability of these ideas to SDN, in the hope of jumpstarting collaborations between theoreticians and networking researchers in this area. This provide not only an opportunity for the networking community to get new ideas and approaches, but will also provide a tremendous opportunity for the theoretical community, both as a source of new algorithmic problems and as a way to have a direct impact. This is to some extent in contrast to the traditional networking paradigm, where the algorithmic problems often do not have a path to deployment as they are constrained by existing protocols.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms.jpg&#34; alt=&#34;NSF Workshop&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Xiang Qiao, represented the SNLab made a speech about Magellan: Toward Automatic Multi-Table SDN Programming. He systematic tell that Multi-table pipelining has emerged as a key technique for the next-generation SDN data path. Programming such a data path model, however, can be challenging. In this talk, he also discusses several algorithmic challenges in programming multi-table pipelines. This talk attracted both academic and industrial researchers. They gave some good suggestion and comments to us. And most of them highly agree with our research.&lt;/p&gt;
+
+&lt;p&gt;As this workshop, we discussed with the workshop attendees on the most important algorithmic problems involving SDN. This serves as a central point of reference for future work in algorithms for SDN, and hopefully spur further research in the way that lists of open problems have led to further research in other parts of algorithms.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>ARO Workshop on Software Defined Networking for Army Applications</title>
       <link>/post/aro-workshop-on-software-defined-networking-for-army-applications/</link>
       <pubDate>Tue, 31 May 2016 00:00:00 +0800</pubDate>
-      
       <guid>/post/aro-workshop-on-software-defined-networking-for-army-applications/</guid>
-      <description>SNLab organized the workshop in May 5-6$^{th}$, 2016. This workshop bring together experts from software-defined networking, wireless/hybrid networks, tactical networks, high-performance computing and related disciplines to investigate both the benefits and the issues when applying SDN to army applications. The emergence of SDN, whose key features include separation between the data-plane and the control-plane of networks, and logically centralized network control, has potential to completely reshape the field of computer networking.</description>
+      <description>&lt;p&gt;SNLab organized the workshop in May 5-6$^{th}$, 2016. This workshop bring together experts from software-defined networking, wireless/hybrid networks, tactical networks, high-performance computing and related disciplines to investigate both the benefits and the issues when applying SDN to army applications. The emergence of SDN, whose key features include separation between the data-plane and the control-plane of networks, and logically centralized network control, has potential to completely reshape the field of computer networking. Going beyond conceptual models, the existing deployment of SDN in major data centers (e.g., Google and Microsoft data centers) has demonstrated the substantial gain and flexibility of SDN. However, the existing initiatives of SDN focus mostly on non-tactical data center networks, service provider networks, and enterprise networks. Given the substantial potential of SDN, it is imperative that we develop a better understanding of both the impacts and the potential issues of applying SDN to Army Applications, primarily for multi-hop wireless/hybrid networks, but also for high performance computing in the army context.&lt;/p&gt;
+
+&lt;p&gt;We invited some famous professors and scientists to discuss some SDN challenge problem, including Yale, UCLA, Imperial College, University of Pennsylvania, Caltech, Carnegie Mellon University, Princeton University, MIT, DARPA, IBM, Uber etc. famous university and company.&lt;/p&gt;
+
+&lt;p&gt;Y. Richard Yang as a chair , made a key note speech. And he introduced some recently research. A key benefit of SDN is logically centralized control. There is a large body of existing work of SDN control path, but they are mostly in the context of wired networks such as data center networks and wide-area networks (WAN). By control path, we mean the complete spectrum from controller placement, controller fault tolerance, controller programming, and controller-forwarding elements integration.&lt;/p&gt;
+
+&lt;p&gt;This workshop reviewed key related work and warmly discussed issues with potential outcomes. The workshop successful hold and all of attendees are very satisfied with the outcome of the workshop.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Demonstration of ALTO SPEC on 2016 Internet2 Global Summit</title>
       <link>/post/demonstration-of-alto-spce-on-2016-internet2-global-summit/</link>
       <pubDate>Tue, 24 May 2016 00:00:00 +0800</pubDate>
-      
       <guid>/post/demonstration-of-alto-spce-on-2016-internet2-global-summit/</guid>
-      <description>2016 Internet2 Global Summit was successfully held in Chicago, Illinois on May 15 to May 18.The Internet2 Global Summit is a leading forum to support and drive the advancement of research and education, spur next-generation innovation and accelerate global discovery.
-SNlab cooperated with CERN from Caltech on the discussion and demonstration of latest achievements among this summit. Core members including Jensen Zhang, Mingming Chen, Qiao Xiang, Kai Gao, May Wang and Shawn Lin attended the summit.</description>
+      <description>&lt;p&gt;&lt;em&gt;2016 Internet2 Global Summit&lt;/em&gt; was successfully held in Chicago, Illinois on May 15 to May 18.The Internet2 Global Summit is a leading forum to support and drive the advancement of research and education, spur next-generation innovation and accelerate global discovery.&lt;/p&gt;
+
+&lt;p&gt;SNlab cooperated with CERN from Caltech on the discussion and demonstration of latest achievements among this summit. Core members including Jensen Zhang, Mingming Chen, Qiao Xiang, Kai Gao, May Wang and Shawn Lin attended the summit.&lt;/p&gt;
+
+&lt;p&gt;Achievements on development of ALTO SPCE was presented and received great acclaim from attendees.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/static/img/2016-05-31-demonstration-of-alto-spce-on-2016-internet2-global-summit-1.png&#34; alt=&#34;ALTO SPCE Demo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;SNlab&amp;rsquo;s major work is based on the SDN controller OpenDaylight. This demonstration is bulit on the environment provided by Caltech, with several Pica8 and SDN switches(from Dell) and work with standard protocol OpenFlow to connect OpenDaylight. The convertion from virtual environment to the real is a great breakthrough .&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/static/img/2016-05-31-demonstration-of-alto-spce-on-2016-internet2-global-summit-2.png&#34; alt=&#34;CMS Experiment&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;SNlab and Caltech will keep working  together on the great issues of SDN.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Spring Summit of SNLab Held</title>
       <link>/post/spring-summit-of-snlab-held/</link>
       <pubDate>Mon, 28 Mar 2016 00:00:00 +0800</pubDate>
-      
       <guid>/post/spring-summit-of-snlab-held/</guid>
-      <description>Spring Summit of SNlab is held on March 21 to March 23 in College of Computer Science, Tongji University.
-Summit invited researchers from Qinghua, Yale, University of Science and Technology, Shanghai Jiao Tong University, Nanjing University of Posts and telecommunications and Chinese Academy of Sciences to engage in the summit.</description>
+      <description>&lt;p&gt;Spring Summit of SNlab is held on March 21 to March 23 in College of Computer Science, Tongji University.&lt;/p&gt;
+
+&lt;p&gt;Summit invited researchers from Qinghua, Yale, University of Science and Technology, Shanghai Jiao Tong University, Nanjing University of Posts and telecommunications and Chinese Academy of Sciences to engage in the summit.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

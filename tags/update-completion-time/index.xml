@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>update completion time | SNLab - Systems Networking Lab</title>
+    <link>/tags/update-completion-time/</link>
+      <atom:link href="/tags/update-completion-time/index.xml" rel="self" type="application/rss+xml" />
+    <description>update completion time</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>update completion time</title>
+      <link>/tags/update-completion-time/</link>
+    </image>
+    
+    <item>
+      <title>Update Algebra: Toward Continuous, Non-Blocking Composition of Network Updates in SDN</title>
+      <link>/publication/ua-2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ua-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

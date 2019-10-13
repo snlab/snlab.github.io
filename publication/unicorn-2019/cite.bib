@@ -1,0 +1,50 @@
+@article{Unicorn2019,
+ abstract = {As the data volume increases exponentially over time,
+data-intensive analytics benefits substantially from multi-organizational,
+geographically-distributed, collaborative computing, where different
+organizations contribute various yet scarce resources, e.g., computation,
+storage and networking resources, to collaboratively collect, share and
+analyze extremely large amounts of data. By analyzing the data analytics
+trace from the Compact Muon Solenoid (CMS) experiment, one of the largest
+scientific experiments in the world, and systematically examining the
+design of existing resource management systems for clusters, we show that
+the multi-domain, geo-distributed, resource-disaggregated nature of this
+new paradigm calls for a framework to manage a large set of
+distributively-owned, heterogeneous resources, with the objective of
+efficient resource utilization, following the autonomy and privacy of
+different domains, and that the fundamental challenge for designing such a
+framework is: how to accurately discover and represent resource
+availability of a large set of distributively-owned, heterogeneous
+resources across different domains with minimal information exposure from
+each domain? Existing resource management systems are designed for
+single-domain clusters and cannot address this challenge. In this paper, we
+design Unicorn, the first unified resource orchestration framework for
+multi-domain, geo-distributed data analytics. In Unicorn, we encode the
+resource availability for each domain into resource state abstraction, a
+variant of the network view abstraction extended to accurately represent
+the availability of multiple resources with minimal information exposure
+using a set of linear inequalities. We then design a novel, efficient
+cross-domain query algorithm and a privacy-preserving resource information
+integration protocol to discover and integrate the accurate, minimal
+resource availability information for a set of data analytics jobs across
+different domains. In addition, Unicorn also contains a global resource
+orchestrator that computes optimal resource allocation decisions for data
+analytics jobs. We implement a prototype of Unicorn and present preliminary
+evaluation results to demonstrate its efficiency and efficacy. We also give
+a full demonstration of the Unicorn system at SuperComputing 2017.},
+ author = {Qiao Xiang and
+X. Tony Wang and
+J. Jensen Zhang and
+Harvey Newman and
+Y. Richard Yang and
+Y. Jace Liu},
+ doi = {https://doi.org/10.1016/j.future.2018.09.048},
+ issn = {0167-739X},
+ journal = {Future Generation Computer Systems},
+ pages = {188 - 197},
+ title = {Unicorn: Unified resource orchestration for multi-domain, geo-distributed data analytics},
+ url = {http://www.sciencedirect.com/science/article/pii/S0167739X18302413},
+ volume = {93},
+ year = {2019}
+}
+

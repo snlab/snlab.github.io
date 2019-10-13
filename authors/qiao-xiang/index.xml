@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qiao Xiang | SNLab - Systems Networking Lab</title>
+    <link>/authors/qiao-xiang/</link>
+      <atom:link href="/authors/qiao-xiang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Qiao Xiang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Qiao Xiang</title>
+      <link>/authors/qiao-xiang/</link>
+    </image>
+    
+    <item>
+      <title>An Objective-Driven On-Demand Network Abstraction for Adaptive Applications</title>
+      <link>/publication/gao-2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/gao-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimizing in the Dark: Learning an Optimal Solution through a Simple Request Interface</title>
+      <link>/publication/opt-box-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/opt-box-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unicorn: Unified resource orchestration for multi-domain, geo-distributed data analytics</title>
+      <link>/publication/unicorn-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/unicorn-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental Primitive to Enable High-Performance, Collaborative Data Sciences</title>
+      <link>/publication/re-sa-sc-19/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/re-sa-sc-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SFP: Toward Interdomain Routing for SDN Networks (Poster)</title>
+      <link>/publication/sfp-poster-sigcomm18/</link>
+      <pubDate>Fri, 10 Aug 2018 11:33:03 +0800</pubDate>
+      <guid>/publication/sfp-poster-sigcomm18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental Primitive to Enable High-Performance, Collaborative Data Sciences (Poster)</title>
+      <link>/publication/resa-poster-sigcomm18/</link>
+      <pubDate>Fri, 10 Aug 2018 11:32:10 +0800</pubDate>
+      <guid>/publication/resa-poster-sigcomm18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NOVA: Towards on-demand equivalent network view abstraction for network optimization</title>
+      <link>/publication/nova-iwqos17/</link>
+      <pubDate>Fri, 14 Jul 2017 11:09:34 +0800</pubDate>
+      <guid>/publication/nova-iwqos17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ORSAP: Abstracting routing state on demand (Poster)</title>
+      <link>/publication/orsap-poster-icnp16/</link>
+      <pubDate>Tue, 08 Nov 2016 11:01:47 +0800</pubDate>
+      <guid>/publication/orsap-poster-icnp16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FAST: A Simple Programming Abstraction for Complex State-Dependent SDN Programming (Poster)</title>
+      <link>/publication/fast-poster-sigcomm16/</link>
+      <pubDate>Sat, 20 Aug 2016 10:52:00 +0800</pubDate>
+      <guid>/publication/fast-poster-sigcomm16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

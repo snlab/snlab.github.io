@@ -1,35 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Summit on SNLab - Systems Networking Lab</title>
+    <title>summit | SNLab - Systems Networking Lab</title>
     <link>/tags/summit/</link>
-    <description>Recent content in Summit on SNLab - Systems Networking Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 24 May 2016 00:00:00 +0800</lastBuildDate>
-    
-	<atom:link href="/tags/summit/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/summit/index.xml" rel="self" type="application/rss+xml" />
+    <description>summit</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 May 2016 00:00:00 +0800</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>summit</title>
+      <link>/tags/summit/</link>
+    </image>
     
     <item>
       <title>Demonstration of ALTO SPEC on 2016 Internet2 Global Summit</title>
       <link>/post/demonstration-of-alto-spce-on-2016-internet2-global-summit/</link>
       <pubDate>Tue, 24 May 2016 00:00:00 +0800</pubDate>
-      
       <guid>/post/demonstration-of-alto-spce-on-2016-internet2-global-summit/</guid>
-      <description>2016 Internet2 Global Summit was successfully held in Chicago, Illinois on May 15 to May 18.The Internet2 Global Summit is a leading forum to support and drive the advancement of research and education, spur next-generation innovation and accelerate global discovery.
-SNlab cooperated with CERN from Caltech on the discussion and demonstration of latest achievements among this summit. Core members including Jensen Zhang, Mingming Chen, Qiao Xiang, Kai Gao, May Wang and Shawn Lin attended the summit.</description>
+      <description>&lt;p&gt;&lt;em&gt;2016 Internet2 Global Summit&lt;/em&gt; was successfully held in Chicago, Illinois on May 15 to May 18.The Internet2 Global Summit is a leading forum to support and drive the advancement of research and education, spur next-generation innovation and accelerate global discovery.&lt;/p&gt;
+
+&lt;p&gt;SNlab cooperated with CERN from Caltech on the discussion and demonstration of latest achievements among this summit. Core members including Jensen Zhang, Mingming Chen, Qiao Xiang, Kai Gao, May Wang and Shawn Lin attended the summit.&lt;/p&gt;
+
+&lt;p&gt;Achievements on development of ALTO SPCE was presented and received great acclaim from attendees.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/static/img/2016-05-31-demonstration-of-alto-spce-on-2016-internet2-global-summit-1.png&#34; alt=&#34;ALTO SPCE Demo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;SNlab&amp;rsquo;s major work is based on the SDN controller OpenDaylight. This demonstration is bulit on the environment provided by Caltech, with several Pica8 and SDN switches(from Dell) and work with standard protocol OpenFlow to connect OpenDaylight. The convertion from virtual environment to the real is a great breakthrough .&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/static/img/2016-05-31-demonstration-of-alto-spce-on-2016-internet2-global-summit-2.png&#34; alt=&#34;CMS Experiment&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;SNlab and Caltech will keep working  together on the great issues of SDN.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Spring Summit of SNLab Held</title>
       <link>/post/spring-summit-of-snlab-held/</link>
       <pubDate>Mon, 28 Mar 2016 00:00:00 +0800</pubDate>
-      
       <guid>/post/spring-summit-of-snlab-held/</guid>
-      <description>Spring Summit of SNlab is held on March 21 to March 23 in College of Computer Science, Tongji University.
-Summit invited researchers from Qinghua, Yale, University of Science and Technology, Shanghai Jiao Tong University, Nanjing University of Posts and telecommunications and Chinese Academy of Sciences to engage in the summit.</description>
+      <description>&lt;p&gt;Spring Summit of SNlab is held on March 21 to March 23 in College of Computer Science, Tongji University.&lt;/p&gt;
+
+&lt;p&gt;Summit invited researchers from Qinghua, Yale, University of Science and Technology, Shanghai Jiao Tong University, Nanjing University of Posts and telecommunications and Chinese Academy of Sciences to engage in the summit.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

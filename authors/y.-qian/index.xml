@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Y. Qian | SNLab - Systems Networking Lab</title>
+    <link>/authors/y.-qian/</link>
+      <atom:link href="/authors/y.-qian/index.xml" rel="self" type="application/rss+xml" />
+    <description>Y. Qian</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Y. Qian</title>
+      <link>/authors/y.-qian/</link>
+    </image>
+    
+    <item>
+      <title>JMS: Joint Bandwidth Allocation and Flow Assignment for Transfers with Multiple Sources</title>
+      <link>/publication/jms-2018/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/jms-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

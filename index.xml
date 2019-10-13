@@ -1,20 +1,88 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SNLab - Systems Networking Lab on SNLab - Systems Networking Lab</title>
+    <title>SNLab - Systems Networking Lab</title>
     <link>/</link>
-    <description>Recent content in SNLab - Systems Networking Lab on SNLab - Systems Networking Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>SNLab - Systems Networking Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 12 Oct 2019 21:21:50 -0400</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>SNLab - Systems Networking Lab</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>Tongji-Yale Open Access Proceedings 2016 - 2019 is Published</title>
+      <link>/post/tongji-yale-pub-2019-release/</link>
+      <pubDate>Sat, 12 Oct 2019 21:21:50 -0400</pubDate>
+      <guid>/post/tongji-yale-pub-2019-release/</guid>
+      <description>&lt;p&gt;The open access proceedings of Tongji-Yale Systems Networking Laboratory (SNLab) (2016 - 2019) is available now. Members from SNLab have published 27 high quality articles in areas of computer networking in the past three years including papers accepted by top conferences (e.g., SIGCOMM, SC, INFOCOM, ICNP, etc.) and top journals (e.g., TON, FGCS, etc.), and internet standard proposals accepted by IETF. Many works have been presented and demonstrated in some global events. SNLab will continue to make real impact in the future.&lt;/p&gt;
+
+&lt;p&gt;The full proceedings can be downloaded here: &lt;a href=&#34;/files/tongji-yale-pub-2019.pdf&#34;&gt;[pdf]&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Objective-Driven On-Demand Network Abstraction for Adaptive Applications</title>
+      <link>/publication/gao-2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/gao-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Update Algebra: Toward Continuous, Non-Blocking Composition of Network Updates in SDN</title>
+      <link>/publication/ua-2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ua-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Max-min Fair Allocation for Multi-source Transmission</title>
+      <link>/publication/li-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/li-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimizing in the Dark: Learning an Optimal Solution through a Simple Request Interface</title>
+      <link>/publication/opt-box-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/opt-box-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precedence: Enabling Compact Program Layout By Table Dependency Resolution</title>
+      <link>/publication/precedence-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/precedence-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unicorn: Unified resource orchestration for multi-domain, geo-distributed data analytics</title>
+      <link>/publication/unicorn-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/unicorn-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental Primitive to Enable High-Performance, Collaborative Data Sciences</title>
+      <link>/publication/re-sa-sc-19/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/re-sa-sc-19/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Congratulation: SNLab Published A Number of Top-Level Papers in Networking and System Areas in 2018</title>
       <link>/post/snlab-published-serveral-top-papers-in-networking-and-system-areas/</link>
       <pubDate>Fri, 31 Aug 2018 22:15:28 +0800</pubDate>
-      
       <guid>/post/snlab-published-serveral-top-papers-in-networking-and-system-areas/</guid>
       <description>&lt;p&gt;In year 2018, the SNLab (Systems Networking Lab) at Tongji-Yale Center of
 Advanced Networks and Networked Systems (TYCAN) led by Professor Y. Richard Yang
@@ -64,7 +132,6 @@ military communications field.&lt;/p&gt;
       <title>About</title>
       <link>/about/</link>
       <pubDate>Tue, 14 Aug 2018 12:40:43 +0800</pubDate>
-      
       <guid>/about/</guid>
       <description>
 
@@ -104,7 +171,6 @@ military communications field.&lt;/p&gt;
       <title>SFP: Toward Interdomain Routing for SDN Networks (Poster)</title>
       <link>/publication/sfp-poster-sigcomm18/</link>
       <pubDate>Fri, 10 Aug 2018 11:33:03 +0800</pubDate>
-      
       <guid>/publication/sfp-poster-sigcomm18/</guid>
       <description></description>
     </item>
@@ -113,7 +179,6 @@ military communications field.&lt;/p&gt;
       <title>Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental Primitive to Enable High-Performance, Collaborative Data Sciences (Poster)</title>
       <link>/publication/resa-poster-sigcomm18/</link>
       <pubDate>Fri, 10 Aug 2018 11:32:10 +0800</pubDate>
-      
       <guid>/publication/resa-poster-sigcomm18/</guid>
       <description></description>
     </item>
@@ -122,7 +187,6 @@ military communications field.&lt;/p&gt;
       <title>Trident: toward a unified SDN programming framework with automatic updates</title>
       <link>/publication/trident-sigcomm18/</link>
       <pubDate>Fri, 10 Aug 2018 11:24:31 +0800</pubDate>
-      
       <guid>/publication/trident-sigcomm18/</guid>
       <description></description>
     </item>
@@ -131,8 +195,15 @@ military communications field.&lt;/p&gt;
       <title>DDP: Distributed Network Updates in SDN</title>
       <link>/publication/ddp-icdcs18/</link>
       <pubDate>Fri, 10 Aug 2018 11:18:41 +0800</pubDate>
-      
       <guid>/publication/ddp-icdcs18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JMS: Joint Bandwidth Allocation and Flow Assignment for Transfers with Multiple Sources</title>
+      <link>/publication/jms-2018/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/jms-2018/</guid>
       <description></description>
     </item>
     
@@ -140,7 +211,6 @@ military communications field.&lt;/p&gt;
       <title>Toward the First SDN Programming Capacity Theorem on Realizing High-Level Programs on Low-Level Datapaths</title>
       <link>/publication/capacity-theorem-infocom18/</link>
       <pubDate>Tue, 17 Apr 2018 01:38:49 +0800</pubDate>
-      
       <guid>/publication/capacity-theorem-infocom18/</guid>
       <description></description>
     </item>
@@ -149,8 +219,15 @@ military communications field.&lt;/p&gt;
       <title>Prophet: Fast Accurate Model-based Throughput Prediction for Reactive Flow in DC Networks</title>
       <link>/publication/prophet-infocom18/</link>
       <pubDate>Mon, 16 Apr 2018 01:38:37 +0800</pubDate>
-      
       <guid>/publication/prophet-infocom18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game-Theoretic User Association in Ultra-dense Networks with Device-to-Device Relays</title>
+      <link>/publication/li-2017/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/li-2017/</guid>
       <description></description>
     </item>
     
@@ -158,7 +235,6 @@ military communications field.&lt;/p&gt;
       <title>NOVA: Towards on-demand equivalent network view abstraction for network optimization</title>
       <link>/publication/nova-iwqos17/</link>
       <pubDate>Fri, 14 Jul 2017 11:09:34 +0800</pubDate>
-      
       <guid>/publication/nova-iwqos17/</guid>
       <description></description>
     </item>
@@ -167,7 +243,6 @@ military communications field.&lt;/p&gt;
       <title>ORSAP: Abstracting routing state on demand (Poster)</title>
       <link>/publication/orsap-poster-icnp16/</link>
       <pubDate>Tue, 08 Nov 2016 11:01:47 +0800</pubDate>
-      
       <guid>/publication/orsap-poster-icnp16/</guid>
       <description></description>
     </item>
@@ -176,7 +251,6 @@ military communications field.&lt;/p&gt;
       <title>FAST: A Simple Programming Abstraction for Complex State-Dependent SDN Programming (Poster)</title>
       <link>/publication/fast-poster-sigcomm16/</link>
       <pubDate>Sat, 20 Aug 2016 10:52:00 +0800</pubDate>
-      
       <guid>/publication/fast-poster-sigcomm16/</guid>
       <description></description>
     </item>
@@ -185,8 +259,15 @@ military communications field.&lt;/p&gt;
       <title>Magellan: Generating Multi-Table Datapath from Datapath Oblivious Algorithmic SDN Policies (Poster)</title>
       <link>/publication/magellan-poster-sigcomm16/</link>
       <pubDate>Sat, 20 Aug 2016 10:22:32 +0800</pubDate>
-      
       <guid>/publication/magellan-poster-sigcomm16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Auc2Reserve: A Differentially Private Auction for Electric Vehicle Fast Charging Reservation (Invited Paper)</title>
+      <link>/publication/auc-2-reserve-2016/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/auc-2-reserve-2016/</guid>
       <description></description>
     </item>
     
@@ -194,7 +275,6 @@ military communications field.&lt;/p&gt;
       <title>Richard Yang: SDN programming automation: abstraction, tools, and implementations</title>
       <link>/talk/sdn-programming-automation-abstraction-tools-and-applications/</link>
       <pubDate>Mon, 13 Jun 2016 00:51:33 +0800</pubDate>
-      
       <guid>/talk/sdn-programming-automation-abstraction-tools-and-applications/</guid>
       <description></description>
     </item>
@@ -203,7 +283,6 @@ military communications field.&lt;/p&gt;
       <title>SNLab Members attended the NSF Workshop on Algorithms for Software-Defined Networking</title>
       <link>/post/snlab-members-attended-the-nsf-workshop-on-algorithms/</link>
       <pubDate>Fri, 03 Jun 2016 01:02:18 +0800</pubDate>
-      
       <guid>/post/snlab-members-attended-the-nsf-workshop-on-algorithms/</guid>
       <description>&lt;p&gt;SNLab members (Hu Ning, Du Haizhou, Xiang Qiao, Pen Dan) recently attended the NSF Algorithms in the Field (AiTF) Workshop on Algorithms for Software-Defined Networking in June 2-3, 2016. This workshop is sponsored by the Algorithms in the Field (AiTF) program of the National Science Foundation and the DIMACS(Center for Discrete Mathematics &amp;amp; Theroetical Computer Science Technology Center). Including UC Berkeley, Stanford, Carnegie Mellon University, Princeton University, MIT, Google, Microsoft attended the workshop, and discuss together.&lt;/p&gt;
 
@@ -221,7 +300,6 @@ military communications field.&lt;/p&gt;
       <title>ARO Workshop on Software Defined Networking for Army Applications</title>
       <link>/post/aro-workshop-on-software-defined-networking-for-army-applications/</link>
       <pubDate>Tue, 31 May 2016 00:00:00 +0800</pubDate>
-      
       <guid>/post/aro-workshop-on-software-defined-networking-for-army-applications/</guid>
       <description>&lt;p&gt;SNLab organized the workshop in May 5-6$^{th}$, 2016. This workshop bring together experts from software-defined networking, wireless/hybrid networks, tactical networks, high-performance computing and related disciplines to investigate both the benefits and the issues when applying SDN to army applications. The emergence of SDN, whose key features include separation between the data-plane and the control-plane of networks, and logically centralized network control, has potential to completely reshape the field of computer networking. Going beyond conceptual models, the existing deployment of SDN in major data centers (e.g., Google and Microsoft data centers) has demonstrated the substantial gain and flexibility of SDN. However, the existing initiatives of SDN focus mostly on non-tactical data center networks, service provider networks, and enterprise networks. Given the substantial potential of SDN, it is imperative that we develop a better understanding of both the impacts and the potential issues of applying SDN to Army Applications, primarily for multi-hop wireless/hybrid networks, but also for high performance computing in the army context.&lt;/p&gt;
 
@@ -230,6 +308,38 @@ military communications field.&lt;/p&gt;
 &lt;p&gt;Y. Richard Yang as a chair , made a key note speech. And he introduced some recently research. A key benefit of SDN is logically centralized control. There is a large body of existing work of SDN control path, but they are mostly in the context of wired networks such as data center networks and wide-area networks (WAN). By control path, we mean the complete spectrum from controller placement, controller fault tolerance, controller programming, and controller-forwarding elements integration.&lt;/p&gt;
 
 &lt;p&gt;This workshop reviewed key related work and warmly discussed issues with potential outcomes. The workshop successful hold and all of attendees are very satisfied with the outcome of the workshop.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Demonstration of ALTO SPEC on 2016 Internet2 Global Summit</title>
+      <link>/post/demonstration-of-alto-spce-on-2016-internet2-global-summit/</link>
+      <pubDate>Tue, 24 May 2016 00:00:00 +0800</pubDate>
+      <guid>/post/demonstration-of-alto-spce-on-2016-internet2-global-summit/</guid>
+      <description>&lt;p&gt;&lt;em&gt;2016 Internet2 Global Summit&lt;/em&gt; was successfully held in Chicago, Illinois on May 15 to May 18.The Internet2 Global Summit is a leading forum to support and drive the advancement of research and education, spur next-generation innovation and accelerate global discovery.&lt;/p&gt;
+
+&lt;p&gt;SNlab cooperated with CERN from Caltech on the discussion and demonstration of latest achievements among this summit. Core members including Jensen Zhang, Mingming Chen, Qiao Xiang, Kai Gao, May Wang and Shawn Lin attended the summit.&lt;/p&gt;
+
+&lt;p&gt;Achievements on development of ALTO SPCE was presented and received great acclaim from attendees.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/static/img/2016-05-31-demonstration-of-alto-spce-on-2016-internet2-global-summit-1.png&#34; alt=&#34;ALTO SPCE Demo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;SNlab&amp;rsquo;s major work is based on the SDN controller OpenDaylight. This demonstration is bulit on the environment provided by Caltech, with several Pica8 and SDN switches(from Dell) and work with standard protocol OpenFlow to connect OpenDaylight. The convertion from virtual environment to the real is a great breakthrough .&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/static/img/2016-05-31-demonstration-of-alto-spce-on-2016-internet2-global-summit-2.png&#34; alt=&#34;CMS Experiment&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;SNlab and Caltech will keep working  together on the great issues of SDN.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spring Summit of SNLab Held</title>
+      <link>/post/spring-summit-of-snlab-held/</link>
+      <pubDate>Mon, 28 Mar 2016 00:00:00 +0800</pubDate>
+      <guid>/post/spring-summit-of-snlab-held/</guid>
+      <description>&lt;p&gt;Spring Summit of SNlab is held on March 21 to March 23 in College of Computer Science, Tongji University.&lt;/p&gt;
+
+&lt;p&gt;Summit invited researchers from Qinghua, Yale, University of Science and Technology, Shanghai Jiao Tong University, Nanjing University of Posts and telecommunications and Chinese Academy of Sciences to engage in the summit.&lt;/p&gt;
 </description>
     </item>
     

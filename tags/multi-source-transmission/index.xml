@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>multi-source transmission | SNLab - Systems Networking Lab</title>
+    <link>/tags/multi-source-transmission/</link>
+      <atom:link href="/tags/multi-source-transmission/index.xml" rel="self" type="application/rss+xml" />
+    <description>multi-source transmission</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>multi-source transmission</title>
+      <link>/tags/multi-source-transmission/</link>
+    </image>
+    
+    <item>
+      <title>On Max-min Fair Allocation for Multi-source Transmission</title>
+      <link>/publication/li-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/li-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

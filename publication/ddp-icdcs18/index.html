@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.46" />
-  <meta name="author" content="SNLab">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
+
+  
 
   
   
   
   
+  
     
-      
+    
+    
+  
+  
+
+  <meta name="author" content="SNLab">
+
+  
+  
+  
     
   
   <meta name="description" content="How to quickly and consistently update a network is among the most fundamental and common challenges in software defined networking (SDN) systems. Current approaches heavily rely on the (logically) centralized controller to initiate and orchestrate the network updates, resulting in long latency of update completion. In this paper, we present DDP, a system for fast, distributed network updates while preserving various consistency properties. The key technique in DDP is a novel primitive named datapath operation container (DOC), where each DOC is encoded with an individual operation and its dependency logic. DDP adopts the simple, but powerful DOCs to configure the network, so that network updates can be triggered and executed at the data plane in a distributed and local manner. Novel algorithms are designed to compute and optimize the DOCs for consistent updates. We implement DDP to evaluate its performance in various update scenarios. Experimental results show that DDP significantly improves network update speed by up to 52.1% for the real-time updates initiated by the controller, and further improves the speed by 55.6-61.4% for the updates directly triggered at the data plane, such as failure recovery.">
@@ -26,153 +37,267 @@
 
 
   
+  
+  
+  <meta name="theme-color" content="#795548">
+  
 
-  
-  
-  <meta name="theme-color" content="#0095eb">
   
   
   
   
     
-  
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
     
     
       
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
       
     
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
-  
-  
-  
-  
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
-  
-  <link rel="stylesheet" href="/styles.css">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
   
 
   
   
   
-
-  
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="SNLab - Systems Networking Lab">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="SNLab - Systems Networking Lab">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono%7CLora:400,700%7CRoboto:400,700&display=swap">
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.f541c509784f6c80721eedef01316126.css">
+
+  
+    
+    
+    
+    
+      
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.4252f4fcb5b424deed747efa7bd7dddd.css">
+  
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
   <link rel="canonical" href="/publication/ddp-icdcs18/">
 
-  <meta property="twitter:card" content="summary_large_image">
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="SNLab - Systems Networking Lab">
   <meta property="og:url" content="/publication/ddp-icdcs18/">
   <meta property="og:title" content="DDP: Distributed Network Updates in SDN | SNLab - Systems Networking Lab">
-  <meta property="og:description" content="How to quickly and consistently update a network is among the most fundamental and common challenges in software defined networking (SDN) systems. Current approaches heavily rely on the (logically) centralized controller to initiate and orchestrate the network updates, resulting in long latency of update completion. In this paper, we present DDP, a system for fast, distributed network updates while preserving various consistency properties. The key technique in DDP is a novel primitive named datapath operation container (DOC), where each DOC is encoded with an individual operation and its dependency logic. DDP adopts the simple, but powerful DOCs to configure the network, so that network updates can be triggered and executed at the data plane in a distributed and local manner. Novel algorithms are designed to compute and optimize the DOCs for consistent updates. We implement DDP to evaluate its performance in various update scenarios. Experimental results show that DDP significantly improves network update speed by up to 52.1% for the real-time updates initiated by the controller, and further improves the speed by 55.6-61.4% for the updates directly triggered at the data plane, such as failure recovery.">
-  <meta property="og:locale" content="en-us">
+  <meta property="og:description" content="How to quickly and consistently update a network is among the most fundamental and common challenges in software defined networking (SDN) systems. Current approaches heavily rely on the (logically) centralized controller to initiate and orchestrate the network updates, resulting in long latency of update completion. In this paper, we present DDP, a system for fast, distributed network updates while preserving various consistency properties. The key technique in DDP is a novel primitive named datapath operation container (DOC), where each DOC is encoded with an individual operation and its dependency logic. DDP adopts the simple, but powerful DOCs to configure the network, so that network updates can be triggered and executed at the data plane in a distributed and local manner. Novel algorithms are designed to compute and optimize the DOCs for consistent updates. We implement DDP to evaluate its performance in various update scenarios. Experimental results show that DDP significantly improves network update speed by up to 52.1% for the real-time updates initiated by the controller, and further improves the speed by 55.6-61.4% for the updates directly triggered at the data plane, such as failure recovery."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-08-10T11:18:41&#43;08:00">
-  
-  <meta property="article:modified_time" content="2018-08-10T11:18:41&#43;08:00">
+    
+      <meta property="article:published_time" content="2018-08-10T11:18:41&#43;08:00">
+    
+    <meta property="article:modified_time" content="2018-08-10T11:18:41&#43;08:00">
   
 
   
 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/publication/ddp-icdcs18/"
+  },
+  "headline": "DDP: Distributed Network Updates in SDN",
   
+  "datePublished": "2018-08-10T11:18:41+08:00",
+  "dateModified": "2018-08-10T11:18:41+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Geng Li"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "SNLab - Systems Networking Lab",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/img/icon-512.png"
+    }
+  },
+  "description": "How to quickly and consistently update a network is among the most fundamental and common challenges in software defined networking (SDN) systems. Current approaches heavily rely on the (logically) centralized controller to initiate and orchestrate the network updates, resulting in long latency of update completion. In this paper, we present DDP, a system for fast, distributed network updates while preserving various consistency properties. The key technique in DDP is a novel primitive named datapath operation container (DOC), where each DOC is encoded with an individual operation and its dependency logic. DDP adopts the simple, but powerful DOCs to configure the network, so that network updates can be triggered and executed at the data plane in a distributed and local manner. Novel algorithms are designed to compute and optimize the DOCs for consistent updates. We implement DDP to evaluate its performance in various update scenarios. Experimental results show that DDP significantly improves network update speed by up to 52.1% for the real-time updates initiated by the controller, and further improves the speed by 55.6-61.4% for the updates directly triggered at the data plane, such as failure recovery."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
 
   <title>DDP: Distributed Network Updates in SDN | SNLab - Systems Networking Lab</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-    <div class="navbar-header">
+      <a class="navbar-brand" href="/">SNLab - Systems Networking Lab</a>
       
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
       </button>
       
-      <a class="navbar-brand" href="/">SNLab - Systems Networking Lab</a>
-    </div>
 
     
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse" id="navbar">
 
       
       
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="navbar-nav ml-auto">
         
 
         
-        
+
         
         
         
           
         
 
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
         <li class="nav-item">
-          <a href="/#about">
-            
-            <span>Home</span>
-            
-          </a>
+          <a class="nav-link " href="/#about"><span>Home</span></a>
         </li>
 
         
         
 
         
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-            
-            <span>Publications</span>
-            
-            <span class="caret"></span>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Publications</span><span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
             
-            <li class="nav-item">
-              <a href="/#publications_selected">
-                
-                <span>Selected Publications</span>
-                
-              </a>
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#publications_selected"><span>Selected Publications</span></a>
             </li>
             
-            <li class="nav-item">
-              <a href="/#publications">
-                
-                <span>Recent Publications</span>
-                
-              </a>
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#publications"><span>Recent Publications</span></a>
             </li>
             
-            <li class="nav-item">
-              <a href="/publication">
-                
-                <span>All Publications</span>
-                
-              </a>
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/publication"><span>All Publications</span></a>
             </li>
             
           </ul>
@@ -182,29 +307,17 @@
         
 
         
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-            
-            <span>Posts</span>
-            
-            <span class="caret"></span>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Posts</span><span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
             
-            <li class="nav-item">
-              <a href="/#posts">
-                
-                <span>Recent Posts</span>
-                
-              </a>
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#posts"><span>Recent Posts</span></a>
             </li>
             
-            <li class="nav-item">
-              <a href="/post">
-                
-                <span>All Posts</span>
-                
-              </a>
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/post"><span>All Posts</span></a>
             </li>
             
           </ul>
@@ -214,170 +327,250 @@
         
 
         
-        
+
         
         
         
           
         
 
-        <li class="nav-item">
-          <a href="/#projects">
-            
-            <span>Projects</span>
-            
-          </a>
-        </li>
-
         
-        
-
         
         
         
         
         
           
+          
+          
+            
+          
+          
         
 
         <li class="nav-item">
-          <a href="/#contact">
-            
-            <span>Contact</span>
-            
-          </a>
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
         </li>
 
         
         
-      
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
 
       
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
       </ul>
 
     </div>
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <div class="pub">
 
   
 
 
-  <div class="article-container">
-    <h1 itemprop="name">DDP: Distributed Network Updates in SDN</h1>
-    <span class="pub-authors" itemprop="author">
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>DDP: Distributed Network Updates in SDN</h1>
+
+  
+
+  
+    
+
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/geng-li/">Geng Li</a></span>, <span><a href="/authors/yichen-qian/">Yichen Qian</a></span>, <span><a href="/authors/chenxinyu-zhao/">Chenxinyu Zhao</a></span>, <span><a href="/authors/y.-richard-yang/">Y. Richard Yang</a></span>, <span><a href="/authors/tong-yang/">Tong Yang</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
       
-      Geng Li, Yichen Qian, Chenxinyu Zhao, Y. Richard Yang, Tong Yang
-      
-    </span>
-    <span class="pull-right">
-      
+    
+    August 2018
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
 <div class="share-box" aria-hidden="true">
   <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=DDP%3a%20Distributed%20Network%20Updates%20in%20SDN&amp;url=%2fpublication%2fddp-icdcs18%2f"
-         target="_blank" rel="noopener">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fddp-icdcs18%2f"
-         target="_blank" rel="noopener">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fddp-icdcs18%2f&amp;title=DDP%3a%20Distributed%20Network%20Updates%20in%20SDN"
-         target="_blank" rel="noopener">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fddp-icdcs18%2f&amp;title=DDP%3a%20Distributed%20Network%20Updates%20in%20SDN"
-         target="_blank" rel="noopener">
-        <i class="fa fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=DDP%3a%20Distributed%20Network%20Updates%20in%20SDN&amp;body=%2fpublication%2fddp-icdcs18%2f">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/publication/ddp-icdcs18/&amp;text=DDP:%20Distributed%20Network%20Updates%20in%20SDN" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/publication/ddp-icdcs18/&amp;t=DDP:%20Distributed%20Network%20Updates%20in%20SDN" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=DDP:%20Distributed%20Network%20Updates%20in%20SDN&amp;body=/publication/ddp-icdcs18/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/ddp-icdcs18/&amp;title=DDP:%20Distributed%20Network%20Updates%20in%20SDN" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=DDP:%20Distributed%20Network%20Updates%20in%20SDN%20/publication/ddp-icdcs18/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/publication/ddp-icdcs18/&amp;title=DDP:%20Distributed%20Network%20Updates%20in%20SDN" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
   </ul>
 </div>
 
 
-    </span>
+  
+
+</div>
 
     
 
-    
-    <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">How to quickly and consistently update a network is among the most fundamental and common challenges in software defined networking (SDN) systems. Current approaches heavily rely on the (logically) centralized controller to initiate and orchestrate the network updates, resulting in long latency of update completion. In this paper, we present DDP, a system for fast, distributed network updates while preserving various consistency properties. The key technique in DDP is a novel primitive named datapath operation container (DOC), where each DOC is encoded with an individual operation and its dependency logic. DDP adopts the simple, but powerful DOCs to configure the network, so that network updates can be triggered and executed at the data plane in a distributed and local manner. Novel algorithms are designed to compute and optimize the DOCs for consistent updates. We implement DDP to evaluate its performance in various update scenarios. Experimental results show that DDP significantly improves network update speed by up to 52.1% for the real-time updates initiated by the controller, and further improves the speed by 55.6-61.4% for the updates directly triggered at the data plane, such as failure recovery.</p>
-    
-
-    
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
-          <div class="col-xs-12 col-sm-9">
-            
-            <a href="/publication/#1">
-              Conference paper
-            </a>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-    
-
-    
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">In <em>International Conference on Distributed Computing Systems (ICDCS)</em>, IEEE</div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-    
-
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            August, 2018
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-
-    <div class="row" style="padding-top: 10px">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
-          <div class="col-xs-12 col-sm-9">
-
-            
 
 
 
@@ -385,8 +578,32 @@
 
 
 
-<button type="button" class="btn btn-primary btn-outline js-cite-modal"
-        data-filename="/files/citations/ddp-icdcs18.bib">
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/ddp-icdcs18/cite.bib">
   Cite
 </button>
 
@@ -400,18 +617,63 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://ieeexplore.ieee.org/document/8416413/" target="_blank" rel="noopener">
-  ieeexplore
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1109/ICDCS.2018.00150" target="_blank" rel="noopener">
+  DOI
 </a>
 
 
 
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">How to quickly and consistently update a network is among the most fundamental and common challenges in software defined networking (SDN) systems. Current approaches heavily rely on the (logically) centralized controller to initiate and orchestrate the network updates, resulting in long latency of update completion. In this paper, we present DDP, a system for fast, distributed network updates while preserving various consistency properties. The key technique in DDP is a novel primitive named datapath operation container (DOC), where each DOC is encoded with an individual operation and its dependency logic. DDP adopts the simple, but powerful DOCs to configure the network, so that network updates can be triggered and executed at the data plane in a distributed and local manner. Novel algorithms are designed to compute and optimize the DOCs for consistent updates. We implement DDP to evaluate its performance in various update scenarios. Experimental results show that DDP significantly improves network update speed by up to 52.1% for the real-time updates initiated by the controller, and further improves the speed by 55.6-61.4% for the updates directly triggered at the data plane, such as failure recovery.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
           </div>
         </div>
       </div>
-      <div class="col-sm-1"></div>
+      <div class="col-md-1"></div>
     </div>
-    <div class="visible-xs space-below"></div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>International Conference on Distributed Computing Systems (ICDCS)</em>, IEEE</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
     <div class="space-below"></div>
 
@@ -420,7 +682,48 @@
     
 
 
+    
 
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/geng-li/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+    
 
 
   </div>
@@ -428,48 +731,155 @@
 
 
 
-<footer class="site-footer">
-  <div class="container">
+      
 
     
+    
 
-    <p class="powered-by">
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
 
-      &copy; 2018 &middot; 
+      
 
-      Powered by the
-      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
 
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
+      
+      
+    
 
-    </p>
-  </div>
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
+
+        
+    <script src="/js/snlab.min.js"></script>
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
 </footer>
 
+  </div>
+  
 
+  
 <div id="modal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Cite</h4>
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-      <div>
-        <pre><code class="modal-body tex"></code></pre>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
-          <i class="fa fa-copy"></i> Copy
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
         </a>
-        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
-          <i class="fa fa-download"></i> Download
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
@@ -477,45 +887,5 @@
   </div>
 </div>
 
-    
-
-    
-    
-    <script id="dsq-count-scr" src="//snlab-org.disqus.com/count.js" async></script>
-    
-
-    
-
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
-    
-    
-    <script src="/js/hugo-academic.js"></script>
-    
-
-    
-    
-      
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-      
-
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-    
-
-  </body>
+</body>
 </html>
-

@@ -1,33 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Workshop on SNLab - Systems Networking Lab</title>
+    <title>workshop | SNLab - Systems Networking Lab</title>
     <link>/tags/workshop/</link>
-    <description>Recent content in Workshop on SNLab - Systems Networking Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 03 Jun 2016 01:02:18 +0800</lastBuildDate>
-    
-	<atom:link href="/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <description>workshop</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jun 2016 01:02:18 +0800</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>workshop</title>
+      <link>/tags/workshop/</link>
+    </image>
     
     <item>
       <title>SNLab Members attended the NSF Workshop on Algorithms for Software-Defined Networking</title>
       <link>/post/snlab-members-attended-the-nsf-workshop-on-algorithms/</link>
       <pubDate>Fri, 03 Jun 2016 01:02:18 +0800</pubDate>
-      
       <guid>/post/snlab-members-attended-the-nsf-workshop-on-algorithms/</guid>
-      <description>SNLab members (Hu Ning, Du Haizhou, Xiang Qiao, Pen Dan) recently attended the NSF Algorithms in the Field (AiTF) Workshop on Algorithms for Software-Defined Networking in June 2-3, 2016. This workshop is sponsored by the Algorithms in the Field (AiTF) program of the National Science Foundation and the DIMACS(Center for Discrete Mathematics &amp;amp; Theroetical Computer Science Technology Center). Including UC Berkeley, Stanford, Carnegie Mellon University, Princeton University, MIT, Google, Microsoft attended the workshop, and discuss together.</description>
+      <description>&lt;p&gt;SNLab members (Hu Ning, Du Haizhou, Xiang Qiao, Pen Dan) recently attended the NSF Algorithms in the Field (AiTF) Workshop on Algorithms for Software-Defined Networking in June 2-3, 2016. This workshop is sponsored by the Algorithms in the Field (AiTF) program of the National Science Foundation and the DIMACS(Center for Discrete Mathematics &amp;amp; Theroetical Computer Science Technology Center). Including UC Berkeley, Stanford, Carnegie Mellon University, Princeton University, MIT, Google, Microsoft attended the workshop, and discuss together.&lt;/p&gt;
+
+&lt;p&gt;The main goal of this workshop is to bring together researchers working at the intersection of the theory and practice of networking, with a special focus on the applicability of these ideas to SDN, in the hope of jumpstarting collaborations between theoreticians and networking researchers in this area. This provide not only an opportunity for the networking community to get new ideas and approaches, but will also provide a tremendous opportunity for the theoretical community, both as a source of new algorithmic problems and as a way to have a direct impact. This is to some extent in contrast to the traditional networking paradigm, where the algorithmic problems often do not have a path to deployment as they are constrained by existing protocols.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2016-06-14-snlab-members-attended-the-nsf-workshop-on-algorithms.jpg&#34; alt=&#34;NSF Workshop&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Xiang Qiao, represented the SNLab made a speech about Magellan: Toward Automatic Multi-Table SDN Programming. He systematic tell that Multi-table pipelining has emerged as a key technique for the next-generation SDN data path. Programming such a data path model, however, can be challenging. In this talk, he also discusses several algorithmic challenges in programming multi-table pipelines. This talk attracted both academic and industrial researchers. They gave some good suggestion and comments to us. And most of them highly agree with our research.&lt;/p&gt;
+
+&lt;p&gt;As this workshop, we discussed with the workshop attendees on the most important algorithmic problems involving SDN. This serves as a central point of reference for future work in algorithms for SDN, and hopefully spur further research in the way that lists of open problems have led to further research in other parts of algorithms.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>ARO Workshop on Software Defined Networking for Army Applications</title>
       <link>/post/aro-workshop-on-software-defined-networking-for-army-applications/</link>
       <pubDate>Tue, 31 May 2016 00:00:00 +0800</pubDate>
-      
       <guid>/post/aro-workshop-on-software-defined-networking-for-army-applications/</guid>
-      <description>SNLab organized the workshop in May 5-6$^{th}$, 2016. This workshop bring together experts from software-defined networking, wireless/hybrid networks, tactical networks, high-performance computing and related disciplines to investigate both the benefits and the issues when applying SDN to army applications. The emergence of SDN, whose key features include separation between the data-plane and the control-plane of networks, and logically centralized network control, has potential to completely reshape the field of computer networking.</description>
+      <description>&lt;p&gt;SNLab organized the workshop in May 5-6$^{th}$, 2016. This workshop bring together experts from software-defined networking, wireless/hybrid networks, tactical networks, high-performance computing and related disciplines to investigate both the benefits and the issues when applying SDN to army applications. The emergence of SDN, whose key features include separation between the data-plane and the control-plane of networks, and logically centralized network control, has potential to completely reshape the field of computer networking. Going beyond conceptual models, the existing deployment of SDN in major data centers (e.g., Google and Microsoft data centers) has demonstrated the substantial gain and flexibility of SDN. However, the existing initiatives of SDN focus mostly on non-tactical data center networks, service provider networks, and enterprise networks. Given the substantial potential of SDN, it is imperative that we develop a better understanding of both the impacts and the potential issues of applying SDN to Army Applications, primarily for multi-hop wireless/hybrid networks, but also for high performance computing in the army context.&lt;/p&gt;
+
+&lt;p&gt;We invited some famous professors and scientists to discuss some SDN challenge problem, including Yale, UCLA, Imperial College, University of Pennsylvania, Caltech, Carnegie Mellon University, Princeton University, MIT, DARPA, IBM, Uber etc. famous university and company.&lt;/p&gt;
+
+&lt;p&gt;Y. Richard Yang as a chair , made a key note speech. And he introduced some recently research. A key benefit of SDN is logically centralized control. There is a large body of existing work of SDN control path, but they are mostly in the context of wired networks such as data center networks and wide-area networks (WAN). By control path, we mean the complete spectrum from controller placement, controller fault tolerance, controller programming, and controller-forwarding elements integration.&lt;/p&gt;
+
+&lt;p&gt;This workshop reviewed key related work and warmly discussed issues with potential outcomes. The workshop successful hold and all of attendees are very satisfied with the outcome of the workshop.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

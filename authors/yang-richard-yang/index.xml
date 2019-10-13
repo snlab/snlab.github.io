@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yang Richard Yang | SNLab - Systems Networking Lab</title>
+    <link>/authors/yang-richard-yang/</link>
+      <atom:link href="/authors/yang-richard-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yang Richard Yang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Yang Richard Yang</title>
+      <link>/authors/yang-richard-yang/</link>
+    </image>
+    
+    <item>
+      <title>Optimizing in the Dark: Learning an Optimal Solution through a Simple Request Interface</title>
+      <link>/publication/opt-box-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/opt-box-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precedence: Enabling Compact Program Layout By Table Dependency Resolution</title>
+      <link>/publication/precedence-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/precedence-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>X. Tony Wang | SNLab - Systems Networking Lab</title>
+    <link>/authors/x.-tony-wang/</link>
+      <atom:link href="/authors/x.-tony-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>X. Tony Wang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>X. Tony Wang</title>
+      <link>/authors/x.-tony-wang/</link>
+    </image>
+    
+    <item>
+      <title>Unicorn: Unified resource orchestration for multi-domain, geo-distributed data analytics</title>
+      <link>/publication/unicorn-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/unicorn-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental Primitive to Enable High-Performance, Collaborative Data Sciences</title>
+      <link>/publication/re-sa-sc-19/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/re-sa-sc-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental Primitive to Enable High-Performance, Collaborative Data Sciences (Poster)</title>
+      <link>/publication/resa-poster-sigcomm18/</link>
+      <pubDate>Fri, 10 Aug 2018 11:32:10 +0800</pubDate>
+      <guid>/publication/resa-poster-sigcomm18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

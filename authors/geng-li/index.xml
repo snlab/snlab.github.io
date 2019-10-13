@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geng Li | SNLab - Systems Networking Lab</title>
+    <link>/authors/geng-li/</link>
+      <atom:link href="/authors/geng-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Geng Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Geng Li</title>
+      <link>/authors/geng-li/</link>
+    </image>
+    
+    <item>
+      <title>Update Algebra: Toward Continuous, Non-Blocking Composition of Network Updates in SDN</title>
+      <link>/publication/ua-2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ua-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Max-min Fair Allocation for Multi-source Transmission</title>
+      <link>/publication/li-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/li-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DDP: Distributed Network Updates in SDN</title>
+      <link>/publication/ddp-icdcs18/</link>
+      <pubDate>Fri, 10 Aug 2018 11:18:41 +0800</pubDate>
+      <guid>/publication/ddp-icdcs18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game-Theoretic User Association in Ultra-dense Networks with Device-to-Device Relays</title>
+      <link>/publication/li-2017/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/li-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

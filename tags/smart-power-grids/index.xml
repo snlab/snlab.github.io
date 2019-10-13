@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>smart power grids | SNLab - Systems Networking Lab</title>
+    <link>/tags/smart-power-grids/</link>
+      <atom:link href="/tags/smart-power-grids/index.xml" rel="self" type="application/rss+xml" />
+    <description>smart power grids</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>smart power grids</title>
+      <link>/tags/smart-power-grids/</link>
+    </image>
+    
+    <item>
+      <title>Auc2Reserve: A Differentially Private Auction for Electric Vehicle Fast Charging Reservation (Invited Paper)</title>
+      <link>/publication/auc-2-reserve-2016/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/auc-2-reserve-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,22 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>1 on SNLab - Systems Networking Lab</title>
+    <title>1 | SNLab - Systems Networking Lab</title>
     <link>/publication_types/1/</link>
-    <description>Recent content in 1 on SNLab - Systems Networking Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 10 Aug 2018 11:33:03 +0800</lastBuildDate>
+      <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>1</title>
+      <link>/publication_types/1/</link>
+    </image>
     
-	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update Algebra: Toward Continuous, Non-Blocking Composition of Network Updates in SDN</title>
+      <link>/publication/ua-2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ua-2019/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Optimizing in the Dark: Learning an Optimal Solution through a Simple Request Interface</title>
+      <link>/publication/opt-box-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/opt-box-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precedence: Enabling Compact Program Layout By Table Dependency Resolution</title>
+      <link>/publication/precedence-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/precedence-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental Primitive to Enable High-Performance, Collaborative Data Sciences</title>
+      <link>/publication/re-sa-sc-19/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/re-sa-sc-19/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SFP: Toward Interdomain Routing for SDN Networks (Poster)</title>
       <link>/publication/sfp-poster-sigcomm18/</link>
       <pubDate>Fri, 10 Aug 2018 11:33:03 +0800</pubDate>
-      
       <guid>/publication/sfp-poster-sigcomm18/</guid>
       <description></description>
     </item>
@@ -25,7 +56,6 @@
       <title>Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental Primitive to Enable High-Performance, Collaborative Data Sciences (Poster)</title>
       <link>/publication/resa-poster-sigcomm18/</link>
       <pubDate>Fri, 10 Aug 2018 11:32:10 +0800</pubDate>
-      
       <guid>/publication/resa-poster-sigcomm18/</guid>
       <description></description>
     </item>
@@ -34,7 +64,6 @@
       <title>Trident: toward a unified SDN programming framework with automatic updates</title>
       <link>/publication/trident-sigcomm18/</link>
       <pubDate>Fri, 10 Aug 2018 11:24:31 +0800</pubDate>
-      
       <guid>/publication/trident-sigcomm18/</guid>
       <description></description>
     </item>
@@ -43,8 +72,15 @@
       <title>DDP: Distributed Network Updates in SDN</title>
       <link>/publication/ddp-icdcs18/</link>
       <pubDate>Fri, 10 Aug 2018 11:18:41 +0800</pubDate>
-      
       <guid>/publication/ddp-icdcs18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JMS: Joint Bandwidth Allocation and Flow Assignment for Transfers with Multiple Sources</title>
+      <link>/publication/jms-2018/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/jms-2018/</guid>
       <description></description>
     </item>
     
@@ -52,7 +88,6 @@
       <title>Toward the First SDN Programming Capacity Theorem on Realizing High-Level Programs on Low-Level Datapaths</title>
       <link>/publication/capacity-theorem-infocom18/</link>
       <pubDate>Tue, 17 Apr 2018 01:38:49 +0800</pubDate>
-      
       <guid>/publication/capacity-theorem-infocom18/</guid>
       <description></description>
     </item>
@@ -61,7 +96,6 @@
       <title>Prophet: Fast Accurate Model-based Throughput Prediction for Reactive Flow in DC Networks</title>
       <link>/publication/prophet-infocom18/</link>
       <pubDate>Mon, 16 Apr 2018 01:38:37 +0800</pubDate>
-      
       <guid>/publication/prophet-infocom18/</guid>
       <description></description>
     </item>
@@ -70,7 +104,6 @@
       <title>NOVA: Towards on-demand equivalent network view abstraction for network optimization</title>
       <link>/publication/nova-iwqos17/</link>
       <pubDate>Fri, 14 Jul 2017 11:09:34 +0800</pubDate>
-      
       <guid>/publication/nova-iwqos17/</guid>
       <description></description>
     </item>
@@ -79,7 +112,6 @@
       <title>ORSAP: Abstracting routing state on demand (Poster)</title>
       <link>/publication/orsap-poster-icnp16/</link>
       <pubDate>Tue, 08 Nov 2016 11:01:47 +0800</pubDate>
-      
       <guid>/publication/orsap-poster-icnp16/</guid>
       <description></description>
     </item>
@@ -88,7 +120,6 @@
       <title>FAST: A Simple Programming Abstraction for Complex State-Dependent SDN Programming (Poster)</title>
       <link>/publication/fast-poster-sigcomm16/</link>
       <pubDate>Sat, 20 Aug 2016 10:52:00 +0800</pubDate>
-      
       <guid>/publication/fast-poster-sigcomm16/</guid>
       <description></description>
     </item>
@@ -97,8 +128,15 @@
       <title>Magellan: Generating Multi-Table Datapath from Datapath Oblivious Algorithmic SDN Policies (Poster)</title>
       <link>/publication/magellan-poster-sigcomm16/</link>
       <pubDate>Sat, 20 Aug 2016 10:22:32 +0800</pubDate>
-      
       <guid>/publication/magellan-poster-sigcomm16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Auc2Reserve: A Differentially Private Auction for Electric Vehicle Fast Charging Reservation (Invited Paper)</title>
+      <link>/publication/auc-2-reserve-2016/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/auc-2-reserve-2016/</guid>
       <description></description>
     </item>
     

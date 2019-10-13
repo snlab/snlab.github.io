@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jingxuan Zhang | SNLab - Systems Networking Lab</title>
+    <link>/authors/jingxuan-zhang/</link>
+      <atom:link href="/authors/jingxuan-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jingxuan Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Apr 2018 01:38:37 +0800</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Jingxuan Zhang</title>
+      <link>/authors/jingxuan-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Prophet: Fast Accurate Model-based Throughput Prediction for Reactive Flow in DC Networks</title>
+      <link>/publication/prophet-infocom18/</link>
+      <pubDate>Mon, 16 Apr 2018 01:38:37 +0800</pubDate>
+      <guid>/publication/prophet-infocom18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

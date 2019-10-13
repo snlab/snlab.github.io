@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chen Gu | SNLab - Systems Networking Lab</title>
+    <link>/authors/chen-gu/</link>
+      <atom:link href="/authors/chen-gu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chen Gu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Nov 2016 11:01:47 +0800</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Chen Gu</title>
+      <link>/authors/chen-gu/</link>
+    </image>
+    
+    <item>
+      <title>ORSAP: Abstracting routing state on demand (Poster)</title>
+      <link>/publication/orsap-poster-icnp16/</link>
+      <pubDate>Tue, 08 Nov 2016 11:01:47 +0800</pubDate>
+      <guid>/publication/orsap-poster-icnp16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FAST: A Simple Programming Abstraction for Complex State-Dependent SDN Programming (Poster)</title>
+      <link>/publication/fast-poster-sigcomm16/</link>
+      <pubDate>Sat, 20 Aug 2016 10:52:00 +0800</pubDate>
+      <guid>/publication/fast-poster-sigcomm16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

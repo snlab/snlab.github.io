@@ -1,0 +1,15 @@
+@inproceedings{UA2019,
+ abstract = {The ability to support continuous network configuration updates is an important ability for enabling Software Defined Networks (SDN) to handle frequent or bursty changes. Current solutions for updating SDN configurations focus on one single update at a time, leading to slow, sequential (i.e., blocking) update execution. In this paper, we develop update algebra, a novel, systematic, theoretical framework based on abstract algebra, to enable continuous, non-blocking, fast composition of multiple updates. Specifically, by modeling each data-plane operation in the set of data-plane operations to be executed by an update as a set-theoretical projection, update algebra defines novel operation composition so that the number of projections for the same match remains constant regardless of the number of updates to be composed, leading to substantial performance benefits. Specifying the dependencies of the data-plane operations in updates as a subset of a free monoid in the general case and as partial ordering for basic consistency, update algebra defines update composition that preserves consistency, even under partially-executed updates, to guarantee correctness. We conduct asymptotic analysis, extensive benchmarking using a real controller, and integration with a real application to demonstrate the benefits of update algebra. In particular, our asymptotic analysis demonstrates that in independent-update dominant settings, update completion time of update algebra remains asymptotically constant despite growth of the number of updates to be executed. Our benchmarking shows that update algebra can achieve 16x reduction in update latency even in settings with an update arrival rate of only 1. 6/s. Our integration with Hedera, a real SDN traffic engineering application, shows that update algebra can reduce average link bandwidth utilization by 30% compared with sequential updates.},
+ author = {G. Li and Y. R. Yang and F. Le and Y. Lim and J. Wang},
+ booktitle = {IEEE INFOCOM 2019 - IEEE Conference on Computer Communications},
+ doi = {10.1109/INFOCOM.2019.8737618},
+ issn = {},
+ keywords = {algebra;set theory;software defined networking;telecommunication traffic;network updates;continuous network configuration updates;update execution;data-plane operation;independent-update dominant settings;update completion time;update arrival rate;sequential updates;update composition;update algebra;abstract algebra;asymptotic analysis;SDN traffic engineering application;continuous nonblocking composition;Benchmark testing;Mathematical model;Abstract algebra;Pipeline processing;Software;Systematics},
+ month = {April},
+ number = {},
+ pages = {1081-1089},
+ title = {Update Algebra: Toward Continuous, Non-Blocking Composition of Network Updates in SDN},
+ volume = {},
+ year = {2019}
+}
+

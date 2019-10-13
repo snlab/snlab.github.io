@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>resource abstraction | SNLab - Systems Networking Lab</title>
+    <link>/tags/resource-abstraction/</link>
+      <atom:link href="/tags/resource-abstraction/index.xml" rel="self" type="application/rss+xml" />
+    <description>resource abstraction</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>resource abstraction</title>
+      <link>/tags/resource-abstraction/</link>
+    </image>
+    
+    <item>
+      <title>An Objective-Driven On-Demand Network Abstraction for Adaptive Applications</title>
+      <link>/publication/gao-2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/gao-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

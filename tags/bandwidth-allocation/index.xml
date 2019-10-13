@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bandwidth allocation | SNLab - Systems Networking Lab</title>
+    <link>/tags/bandwidth-allocation/</link>
+      <atom:link href="/tags/bandwidth-allocation/index.xml" rel="self" type="application/rss+xml" />
+    <description>bandwidth allocation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>bandwidth allocation</title>
+      <link>/tags/bandwidth-allocation/</link>
+    </image>
+    
+    <item>
+      <title>JMS: Joint Bandwidth Allocation and Flow Assignment for Transfers with Multiple Sources</title>
+      <link>/publication/jms-2018/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/jms-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

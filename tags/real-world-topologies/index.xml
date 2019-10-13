@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>real-world topologies | SNLab - Systems Networking Lab</title>
+    <link>/tags/real-world-topologies/</link>
+      <atom:link href="/tags/real-world-topologies/index.xml" rel="self" type="application/rss+xml" />
+    <description>real-world topologies</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>real-world topologies</title>
+      <link>/tags/real-world-topologies/</link>
+    </image>
+    
+    <item>
+      <title>An Objective-Driven On-Demand Network Abstraction for Adaptive Applications</title>
+      <link>/publication/gao-2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/gao-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

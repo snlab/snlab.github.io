@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>abstract algebra | SNLab - Systems Networking Lab</title>
+    <link>/tags/abstract-algebra/</link>
+      <atom:link href="/tags/abstract-algebra/index.xml" rel="self" type="application/rss+xml" />
+    <description>abstract algebra</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>abstract algebra</title>
+      <link>/tags/abstract-algebra/</link>
+    </image>
+    
+    <item>
+      <title>Update Algebra: Toward Continuous, Non-Blocking Composition of Network Updates in SDN</title>
+      <link>/publication/ua-2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ua-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Update Algebra: Toward Continuous, Non-Blocking Composition of Network Updates in SDN</title>
+      <link>/publication/ua-2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ua-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chenxinyu Zhao | SNLab - Systems Networking Lab</title>
+    <link>/authors/chenxinyu-zhao/</link>
+      <atom:link href="/authors/chenxinyu-zhao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chenxinyu Zhao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Aug 2018 11:18:41 +0800</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Chenxinyu Zhao</title>
+      <link>/authors/chenxinyu-zhao/</link>
+    </image>
+    
+    <item>
+      <title>DDP: Distributed Network Updates in SDN</title>
+      <link>/publication/ddp-icdcs18/</link>
+      <pubDate>Fri, 10 Aug 2018 11:18:41 +0800</pubDate>
+      <guid>/publication/ddp-icdcs18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

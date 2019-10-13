@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jun Bi | SNLab - Systems Networking Lab</title>
+    <link>/authors/jun-bi/</link>
+      <atom:link href="/authors/jun-bi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jun Bi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Jun Bi</title>
+      <link>/authors/jun-bi/</link>
+    </image>
+    
+    <item>
+      <title>An Objective-Driven On-Demand Network Abstraction for Adaptive Applications</title>
+      <link>/publication/gao-2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/gao-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prophet: Fast Accurate Model-based Throughput Prediction for Reactive Flow in DC Networks</title>
+      <link>/publication/prophet-infocom18/</link>
+      <pubDate>Mon, 16 Apr 2018 01:38:37 +0800</pubDate>
+      <guid>/publication/prophet-infocom18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NOVA: Towards on-demand equivalent network view abstraction for network optimization</title>
+      <link>/publication/nova-iwqos17/</link>
+      <pubDate>Fri, 14 Jul 2017 11:09:34 +0800</pubDate>
+      <guid>/publication/nova-iwqos17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ORSAP: Abstracting routing state on demand (Poster)</title>
+      <link>/publication/orsap-poster-icnp16/</link>
+      <pubDate>Tue, 08 Nov 2016 11:01:47 +0800</pubDate>
+      <guid>/publication/orsap-poster-icnp16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FAST: A Simple Programming Abstraction for Complex State-Dependent SDN Programming (Poster)</title>
+      <link>/publication/fast-poster-sigcomm16/</link>
+      <pubDate>Sat, 20 Aug 2016 10:52:00 +0800</pubDate>
+      <guid>/publication/fast-poster-sigcomm16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

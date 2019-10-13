@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andreas Voellmy | SNLab - Systems Networking Lab</title>
+    <link>/authors/andreas-voellmy/</link>
+      <atom:link href="/authors/andreas-voellmy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andreas Voellmy</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Aug 2016 10:22:32 +0800</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Andreas Voellmy</title>
+      <link>/authors/andreas-voellmy/</link>
+    </image>
+    
+    <item>
+      <title>Magellan: Generating Multi-Table Datapath from Datapath Oblivious Algorithmic SDN Policies (Poster)</title>
+      <link>/publication/magellan-poster-sigcomm16/</link>
+      <pubDate>Sat, 20 Aug 2016 10:22:32 +0800</pubDate>
+      <guid>/publication/magellan-poster-sigcomm16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

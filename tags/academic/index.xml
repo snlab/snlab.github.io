@@ -1,24 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic on SNLab - Systems Networking Lab</title>
+    <title>academic | SNLab - Systems Networking Lab</title>
     <link>/tags/academic/</link>
-    <description>Recent content in Academic on SNLab - Systems Networking Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 31 Aug 2018 22:15:28 +0800</lastBuildDate>
-    
-	<atom:link href="/tags/academic/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+    <description>academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 31 Aug 2018 22:15:28 +0800</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>academic</title>
+      <link>/tags/academic/</link>
+    </image>
     
     <item>
       <title>Congratulation: SNLab Published A Number of Top-Level Papers in Networking and System Areas in 2018</title>
       <link>/post/snlab-published-serveral-top-papers-in-networking-and-system-areas/</link>
       <pubDate>Fri, 31 Aug 2018 22:15:28 +0800</pubDate>
-      
       <guid>/post/snlab-published-serveral-top-papers-in-networking-and-system-areas/</guid>
-      <description>In year 2018, the SNLab (Systems Networking Lab) at Tongji-Yale Center of Advanced Networks and Networked Systems (TYCAN) led by Professor Y. Richard Yang has published a number of top-level papers, including four CCF A papers accepted by ACM SIGCOMM, IEEE INFOCOM (the top conferences in computer networking) and SuperComputing (the top conference in computer systems) individually. The paper &amp;ldquo;Prophet: Fast Accurate Model-based Throughput Prediction forReactive Flow in DC Networks” is accepted by IEEE INFOCOM 2018.</description>
+      <description>&lt;p&gt;In year 2018, the SNLab (Systems Networking Lab) at Tongji-Yale Center of
+Advanced Networks and Networked Systems (TYCAN) led by Professor Y. Richard Yang
+has published a number of top-level papers, including four CCF A papers accepted
+by ACM SIGCOMM, IEEE INFOCOM (the top conferences in computer networking) and
+SuperComputing (the top conference in computer systems) individually. The paper
+&amp;ldquo;&lt;a href=&#34;/publication/prophet-infocom18&#34;&gt;&lt;em&gt;Prophet: Fast Accurate Model-based Throughput Prediction forReactive Flow in
+DC Networks&lt;/em&gt;&lt;/a&gt;” is accepted by IEEE INFOCOM 2018.
+This paper is completed by the Ph.D. student Jingxuan Zhang and collaborators
+from Tsinghua University and Yale University. The paper “&lt;a href=&#34;/publication/capacity-theorem-infocom18&#34;&gt;&lt;em&gt;Toward the First SDN
+Programming Capacity Theorem on Realizing High-Level Programs on Low-Level
+Datapaths&lt;/em&gt;&lt;/a&gt;” is also received by IEEE
+INFOCOM 2018. It is completed by the Ph.D. student Xin Wang during his visiting
+student period at Yale University with others from Yale University. The paper
+“&lt;a href=&#34;/publication/trident-sigcomm18&#34;&gt;&lt;em&gt;Trident: Towards a Unified SDN Programming Framework with Automatic
+Updates&lt;/em&gt;&lt;/a&gt;” is accepted by ACM SIGCOMM 2018. The
+paper “*Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental
+Primitive to Enable High-Performance, Collaborative Data Sciences*” is accepted
+by SuperComputing 2018. The first author of this paper is Qiao Xiang, a
+post-doctoral fellow of TYCAN; meanwhile, Xin Wang, Jingxuan Zhang and Yang Liu
+are co-authors. Also, Qiao Xiang’s another paper “*OpenSDC: A Novel, Generic
+Datapath for Software Defined Coalitions*” is accepted by IEEE MILCOM 2018, the
+top conference in the military field. In addition, the paper “&lt;a href=&#34;/publication/ddp-icdcs18&#34;&gt;&lt;em&gt;DDP: Distributed
+Network Updates in SDN&lt;/em&gt;&lt;/a&gt;” is accepted by IEEE
+ICDCS 2018. The first author of this paper is Geng Li, a post-doctoral fellow of
+TYCAN. Yichen Qian, a Ph.D student at Tongji University, is one of the
+co-authors.&lt;/p&gt;
+
+&lt;p&gt;ACM SIGCOMM and IEEE INFOCOM are top conferences in computer networking, of
+which SIGCOMM is the flagship conference in this field. The quality requirements
+of the papers accepted by these two conferences are extremely strict. Many
+significant papers in computer networking are published at these two
+conferences. The SuperComputing (SC) conference, also known as International
+Conference for High Performance Computing, Networking, Storage and Analysis, is
+regarded as one of the world’s top academic conferences in the field of high
+performance computing. The annually global TOP500 supercompuer list is released
+through the SC, and the major manufactures and universities related to
+super-calculation will be exhibited at the conference to show their latest
+products and research results, so the SC conference has always been a great
+event in the high-performance computing field. ICDCS is the top conference in
+the field of distributed computing; and MILCOM is the flagship conference in the
+military communications field.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SNLab | SNLab - Systems Networking Lab</title>
+    <link>/authors/snlab/</link>
+      <atom:link href="/authors/snlab/index.xml" rel="self" type="application/rss+xml" />
+    <description>SNLab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 12 Oct 2019 21:21:50 -0400</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>SNLab</title>
+      <link>/authors/snlab/</link>
+    </image>
+    
+    <item>
+      <title>Tongji-Yale Open Access Proceedings 2016 - 2019 is Published</title>
+      <link>/post/tongji-yale-pub-2019-release/</link>
+      <pubDate>Sat, 12 Oct 2019 21:21:50 -0400</pubDate>
+      <guid>/post/tongji-yale-pub-2019-release/</guid>
+      <description>&lt;p&gt;The open access proceedings of Tongji-Yale Systems Networking Laboratory (SNLab) (2016 - 2019) is available now. Members from SNLab have published 27 high quality articles in areas of computer networking in the past three years including papers accepted by top conferences (e.g., SIGCOMM, SC, INFOCOM, ICNP, etc.) and top journals (e.g., TON, FGCS, etc.), and internet standard proposals accepted by IETF. Many works have been presented and demonstrated in some global events. SNLab will continue to make real impact in the future.&lt;/p&gt;
+
+&lt;p&gt;The full proceedings can be downloaded here: &lt;a href=&#34;/files/tongji-yale-pub-2019.pdf&#34;&gt;[pdf]&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

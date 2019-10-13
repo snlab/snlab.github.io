@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>transfer completion time | SNLab - Systems Networking Lab</title>
+    <link>/tags/transfer-completion-time/</link>
+      <atom:link href="/tags/transfer-completion-time/index.xml" rel="self" type="application/rss+xml" />
+    <description>transfer completion time</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>transfer completion time</title>
+      <link>/tags/transfer-completion-time/</link>
+    </image>
+    
+    <item>
+      <title>JMS: Joint Bandwidth Allocation and Flow Assignment for Transfers with Multiple Sources</title>
+      <link>/publication/jms-2018/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/jms-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

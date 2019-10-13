@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christopher Leet | SNLab - Systems Networking Lab</title>
+    <link>/authors/christopher-leet/</link>
+      <atom:link href="/authors/christopher-leet/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christopher Leet</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Christopher Leet</title>
+      <link>/authors/christopher-leet/</link>
+    </image>
+    
+    <item>
+      <title>Precedence: Enabling Compact Program Layout By Table Dependency Resolution</title>
+      <link>/publication/precedence-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/precedence-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toward the First SDN Programming Capacity Theorem on Realizing High-Level Programs on Low-Level Datapaths</title>
+      <link>/publication/capacity-theorem-infocom18/</link>
+      <pubDate>Tue, 17 Apr 2018 01:38:49 +0800</pubDate>
+      <guid>/publication/capacity-theorem-infocom18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
